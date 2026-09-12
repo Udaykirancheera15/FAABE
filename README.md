@@ -1,7 +1,7 @@
 # FAABE: Firefly Algorithm-Tuned Analogy-Based Estimation
 
 Replication package and code for the paper:
-**"FAABE: Firefly Algorithm-Tuned Analogy-Based Estimation for Software Effort Estimation"**
+****
 
 ## Overview
 This repository contains the source code, datasets, and experimental results for FAABE and baseline analogy-based software effort estimation models (ABE, GA-ABE, PSO-ABE, DE-ABE, GWO-ABE, and WOA-ABE), as well as the ablation study.
