@@ -1,0 +1,49 @@
+========================================================================================================================
+LEAKAGE-FREE CUDA: ABE + GA + PSO + DE + GWO + WOA + FAABE
+========================================================================================================================
+Device: cuda
+GPU: NVIDIA A100 80GB PCIe
+Population=10 | max fitness evaluations=1000 | outer folds=10
+
+[1/10] Albrecht
+Albrecht: SUCCESS
+
+[2/10] China
+China: SUCCESS
+
+[3/10] COCOMO81
+COCOMO81: SUCCESS
+
+[4/10] Desharnais
+Desharnais: SUCCESS
+
+[5/10] Kemerer
+Kemerer: SUCCESS
+
+[6/10] Kitchenham
+Kitchenham: SUCCESS
+
+[7/10] Maxwell
+Maxwell: SUCCESS
+
+[8/10] Miyazaki94
+Miyazaki94: SUCCESS
+
+[9/10] Subbiah
+Subbiah: SUCCESS
+
+[10/10] Valdes-Souto
+Valdes-Souto: SUCCESS
+
+COMPLETE
+     Dataset  Status Error
+    Albrecht SUCCESS      
+       China SUCCESS      
+    COCOMO81 SUCCESS      
+  Desharnais SUCCESS      
+     Kemerer SUCCESS      
+  Kitchenham SUCCESS      
+     Maxwell SUCCESS      
+  Miyazaki94 SUCCESS      
+     Subbiah SUCCESS      
+Valdes-Souto SUCCESS      

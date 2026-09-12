@@ -1,0 +1,430 @@
+==============================================================================================================
+ABLATION DATASET: COCOMO81
+==============================================================================================================
+Timestamp: 2026-08-26T11:46:03.713585
+Device: cuda
+GPU: NVIDIA A100 80GB PCIe
+CUDA version: 12.1
+Loaded: cocomo81.csv
+Projects: 64
+Predictors (16): ['rely', 'data', 'cplx', 'time', 'stor', 'virt', 'turn', 'acap', 'aexp', 'pcap', 'vexp', 'lexp', 'modp', 'tool', 'sced', 'loc']
+Target: actual
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 1/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 3/16: ['data', 'modp', 'loc']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 1.81844556
+      Iteration  10/100 | Best training MMRE = 1.20841098
+      Iteration  20/100 | Best training MMRE = 1.17842233
+      Iteration  30/100 | Best training MMRE = 1.17842233
+      Iteration  40/100 | Best training MMRE = 1.17563736
+      Iteration  50/100 | Best training MMRE = 1.09937620
+      Iteration  60/100 | Best training MMRE = 1.03047264
+      Iteration  70/100 | Best training MMRE = 0.97333574
+      Iteration  80/100 | Best training MMRE = 0.97333574
+      Iteration  90/100 | Best training MMRE = 0.97333574
+      Iteration 100/100 | Best training MMRE = 0.95094472
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.49331033
+      Iteration  10/100 | Best training MMRE = 1.43335128
+      Iteration  20/100 | Best training MMRE = 1.43335128
+      Iteration  30/100 | Best training MMRE = 1.43335128
+      Iteration  40/100 | Best training MMRE = 1.43335128
+      Iteration  50/100 | Best training MMRE = 1.43335128
+      Iteration  60/100 | Best training MMRE = 1.43335128
+      Iteration  70/100 | Best training MMRE = 1.43247962
+      Iteration  80/100 | Best training MMRE = 1.43247962
+      Iteration  90/100 | Best training MMRE = 1.43247962
+      Iteration 100/100 | Best training MMRE = 1.43247962
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 1.73777628
+      Iteration  10/100 | Best training MMRE = 1.67510867
+      Iteration  20/100 | Best training MMRE = 1.67510867
+      Iteration  30/100 | Best training MMRE = 1.64749491
+      Iteration  40/100 | Best training MMRE = 1.64749491
+      Iteration  50/100 | Best training MMRE = 1.64749491
+      Iteration  60/100 | Best training MMRE = 1.64749491
+      Iteration  70/100 | Best training MMRE = 1.64749491
+      Iteration  80/100 | Best training MMRE = 1.63233280
+      Iteration  90/100 | Best training MMRE = 1.63233280
+      Iteration 100/100 | Best training MMRE = 1.63233280
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 2/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 3/16: ['data', 'modp', 'loc']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 2.78059244
+      Iteration  10/100 | Best training MMRE = 1.38486683
+      Iteration  20/100 | Best training MMRE = 1.26612234
+      Iteration  30/100 | Best training MMRE = 1.26612234
+      Iteration  40/100 | Best training MMRE = 1.22318470
+      Iteration  50/100 | Best training MMRE = 1.22318470
+      Iteration  60/100 | Best training MMRE = 1.18579388
+      Iteration  70/100 | Best training MMRE = 1.14770710
+      Iteration  80/100 | Best training MMRE = 0.95788842
+      Iteration  90/100 | Best training MMRE = 0.95788842
+      Iteration 100/100 | Best training MMRE = 0.95788842
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.57288349
+      Iteration  10/100 | Best training MMRE = 1.57288349
+      Iteration  20/100 | Best training MMRE = 1.57288349
+      Iteration  30/100 | Best training MMRE = 1.57288349
+      Iteration  40/100 | Best training MMRE = 1.57288349
+      Iteration  50/100 | Best training MMRE = 1.57288349
+      Iteration  60/100 | Best training MMRE = 1.57288349
+      Iteration  70/100 | Best training MMRE = 1.57288349
+      Iteration  80/100 | Best training MMRE = 1.57288349
+      Iteration  90/100 | Best training MMRE = 1.57288349
+      Iteration 100/100 | Best training MMRE = 1.57288349
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 2.09486771
+      Iteration  10/100 | Best training MMRE = 2.01335406
+      Iteration  20/100 | Best training MMRE = 2.01335406
+      Iteration  30/100 | Best training MMRE = 2.01041770
+      Iteration  40/100 | Best training MMRE = 2.01041770
+      Iteration  50/100 | Best training MMRE = 2.01041770
+      Iteration  60/100 | Best training MMRE = 2.00231338
+      Iteration  70/100 | Best training MMRE = 2.00231338
+      Iteration  80/100 | Best training MMRE = 2.00231338
+      Iteration  90/100 | Best training MMRE = 2.00231338
+      Iteration 100/100 | Best training MMRE = 1.99455976
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 3/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 3/16: ['data', 'pcap', 'loc']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 2.36690974
+      Iteration  10/100 | Best training MMRE = 1.36813390
+      Iteration  20/100 | Best training MMRE = 1.36813390
+      Iteration  30/100 | Best training MMRE = 1.33419991
+      Iteration  40/100 | Best training MMRE = 1.33419991
+      Iteration  50/100 | Best training MMRE = 1.13540244
+      Iteration  60/100 | Best training MMRE = 1.13540244
+      Iteration  70/100 | Best training MMRE = 1.05503535
+      Iteration  80/100 | Best training MMRE = 1.05503535
+      Iteration  90/100 | Best training MMRE = 1.05503535
+      Iteration 100/100 | Best training MMRE = 1.04512739
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.49640691
+      Iteration  10/100 | Best training MMRE = 1.45700073
+      Iteration  20/100 | Best training MMRE = 1.45700073
+      Iteration  30/100 | Best training MMRE = 1.45700073
+      Iteration  40/100 | Best training MMRE = 1.45700073
+      Iteration  50/100 | Best training MMRE = 1.45700073
+      Iteration  60/100 | Best training MMRE = 1.45700073
+      Iteration  70/100 | Best training MMRE = 1.45700073
+      Iteration  80/100 | Best training MMRE = 1.45700073
+      Iteration  90/100 | Best training MMRE = 1.45700073
+      Iteration 100/100 | Best training MMRE = 1.45700073
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 1.64292860
+      Iteration  10/100 | Best training MMRE = 1.37423813
+      Iteration  20/100 | Best training MMRE = 1.37423813
+      Iteration  30/100 | Best training MMRE = 1.37261879
+      Iteration  40/100 | Best training MMRE = 1.37261879
+      Iteration  50/100 | Best training MMRE = 1.37261879
+      Iteration  60/100 | Best training MMRE = 1.37261879
+      Iteration  70/100 | Best training MMRE = 1.37261879
+      Iteration  80/100 | Best training MMRE = 1.37261879
+      Iteration  90/100 | Best training MMRE = 1.37261879
+      Iteration 100/100 | Best training MMRE = 1.37261879
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 4/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 2/16: ['data', 'loc']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 1.79000628
+      Iteration  10/100 | Best training MMRE = 1.21403027
+      Iteration  20/100 | Best training MMRE = 1.21403027
+      Iteration  30/100 | Best training MMRE = 1.19248080
+      Iteration  40/100 | Best training MMRE = 1.11664486
+      Iteration  50/100 | Best training MMRE = 1.08804321
+      Iteration  60/100 | Best training MMRE = 1.08739066
+      Iteration  70/100 | Best training MMRE = 1.08739066
+      Iteration  80/100 | Best training MMRE = 1.00312495
+      Iteration  90/100 | Best training MMRE = 1.00312495
+      Iteration 100/100 | Best training MMRE = 1.00312495
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.48818815
+      Iteration  10/100 | Best training MMRE = 1.48818815
+      Iteration  20/100 | Best training MMRE = 1.48818815
+      Iteration  30/100 | Best training MMRE = 1.48818815
+      Iteration  40/100 | Best training MMRE = 1.48818815
+      Iteration  50/100 | Best training MMRE = 1.48818815
+      Iteration  60/100 | Best training MMRE = 1.48818815
+      Iteration  70/100 | Best training MMRE = 1.48818815
+      Iteration  80/100 | Best training MMRE = 1.48818815
+      Iteration  90/100 | Best training MMRE = 1.48818815
+      Iteration 100/100 | Best training MMRE = 1.48818815
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 1.46088612
+      Iteration  10/100 | Best training MMRE = 1.46019948
+      Iteration  20/100 | Best training MMRE = 1.46019948
+      Iteration  30/100 | Best training MMRE = 1.46019948
+      Iteration  40/100 | Best training MMRE = 1.46019948
+      Iteration  50/100 | Best training MMRE = 1.46019948
+      Iteration  60/100 | Best training MMRE = 1.46019948
+      Iteration  70/100 | Best training MMRE = 1.46019888
+      Iteration  80/100 | Best training MMRE = 1.46019888
+      Iteration  90/100 | Best training MMRE = 1.46019888
+      Iteration 100/100 | Best training MMRE = 1.46019888
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 5/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 3/16: ['data', 'modp', 'loc']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 2.12815213
+      Iteration  10/100 | Best training MMRE = 1.25504935
+      Iteration  20/100 | Best training MMRE = 1.24461412
+      Iteration  30/100 | Best training MMRE = 1.17251432
+      Iteration  40/100 | Best training MMRE = 1.17251432
+      Iteration  50/100 | Best training MMRE = 1.17251432
+      Iteration  60/100 | Best training MMRE = 1.15837252
+      Iteration  70/100 | Best training MMRE = 1.15837252
+      Iteration  80/100 | Best training MMRE = 1.15837252
+      Iteration  90/100 | Best training MMRE = 1.15837252
+      Iteration 100/100 | Best training MMRE = 1.15837252
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.45887911
+      Iteration  10/100 | Best training MMRE = 1.22353840
+      Iteration  20/100 | Best training MMRE = 1.22053921
+      Iteration  30/100 | Best training MMRE = 1.21648169
+      Iteration  40/100 | Best training MMRE = 1.18846345
+      Iteration  50/100 | Best training MMRE = 1.18846345
+      Iteration  60/100 | Best training MMRE = 1.18846345
+      Iteration  70/100 | Best training MMRE = 1.18846345
+      Iteration  80/100 | Best training MMRE = 1.18846345
+      Iteration  90/100 | Best training MMRE = 1.18846345
+      Iteration 100/100 | Best training MMRE = 1.18846345
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 1.34350955
+      Iteration  10/100 | Best training MMRE = 1.32403696
+      Iteration  20/100 | Best training MMRE = 1.32403696
+      Iteration  30/100 | Best training MMRE = 1.32403696
+      Iteration  40/100 | Best training MMRE = 1.32403696
+      Iteration  50/100 | Best training MMRE = 1.32403696
+      Iteration  60/100 | Best training MMRE = 1.30310953
+      Iteration  70/100 | Best training MMRE = 1.29989100
+      Iteration  80/100 | Best training MMRE = 1.29989100
+      Iteration  90/100 | Best training MMRE = 1.29989100
+      Iteration 100/100 | Best training MMRE = 1.29989100
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 6/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 3/16: ['data', 'modp', 'loc']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 1.94609082
+      Iteration  10/100 | Best training MMRE = 1.31628168
+      Iteration  20/100 | Best training MMRE = 1.27973223
+      Iteration  30/100 | Best training MMRE = 1.10964620
+      Iteration  40/100 | Best training MMRE = 1.08653986
+      Iteration  50/100 | Best training MMRE = 1.08653986
+      Iteration  60/100 | Best training MMRE = 1.08653986
+      Iteration  70/100 | Best training MMRE = 1.08653986
+      Iteration  80/100 | Best training MMRE = 1.07236814
+      Iteration  90/100 | Best training MMRE = 1.07236814
+      Iteration 100/100 | Best training MMRE = 1.07236814
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.54516566
+      Iteration  10/100 | Best training MMRE = 1.40787160
+      Iteration  20/100 | Best training MMRE = 1.40787160
+      Iteration  30/100 | Best training MMRE = 1.40787160
+      Iteration  40/100 | Best training MMRE = 1.40787160
+      Iteration  50/100 | Best training MMRE = 1.40787160
+      Iteration  60/100 | Best training MMRE = 1.40787160
+      Iteration  70/100 | Best training MMRE = 1.40787160
+      Iteration  80/100 | Best training MMRE = 1.40787160
+      Iteration  90/100 | Best training MMRE = 1.40787160
+      Iteration 100/100 | Best training MMRE = 1.40787160
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 1.33037210
+      Iteration  10/100 | Best training MMRE = 1.32948446
+      Iteration  20/100 | Best training MMRE = 1.32002127
+      Iteration  30/100 | Best training MMRE = 1.32002127
+      Iteration  40/100 | Best training MMRE = 1.32002127
+      Iteration  50/100 | Best training MMRE = 1.32002127
+      Iteration  60/100 | Best training MMRE = 1.31980407
+      Iteration  70/100 | Best training MMRE = 1.31980407
+      Iteration  80/100 | Best training MMRE = 1.31874812
+      Iteration  90/100 | Best training MMRE = 1.31874812
+      Iteration 100/100 | Best training MMRE = 1.31874812
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 7/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 3/16: ['data', 'modp', 'loc']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 2.27450395
+      Iteration  10/100 | Best training MMRE = 1.28402245
+      Iteration  20/100 | Best training MMRE = 1.18969274
+      Iteration  30/100 | Best training MMRE = 1.18969274
+      Iteration  40/100 | Best training MMRE = 1.18969274
+      Iteration  50/100 | Best training MMRE = 1.18969274
+      Iteration  60/100 | Best training MMRE = 1.18969274
+      Iteration  70/100 | Best training MMRE = 1.18969274
+      Iteration  80/100 | Best training MMRE = 1.18969274
+      Iteration  90/100 | Best training MMRE = 1.18969274
+      Iteration 100/100 | Best training MMRE = 1.18969274
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.59780681
+      Iteration  10/100 | Best training MMRE = 1.38908696
+      Iteration  20/100 | Best training MMRE = 1.38908696
+      Iteration  30/100 | Best training MMRE = 1.38908696
+      Iteration  40/100 | Best training MMRE = 1.38908696
+      Iteration  50/100 | Best training MMRE = 1.38908696
+      Iteration  60/100 | Best training MMRE = 1.38908696
+      Iteration  70/100 | Best training MMRE = 1.38908696
+      Iteration  80/100 | Best training MMRE = 1.38908696
+      Iteration  90/100 | Best training MMRE = 1.38908696
+      Iteration 100/100 | Best training MMRE = 1.38908696
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 1.61301696
+      Iteration  10/100 | Best training MMRE = 1.56166720
+      Iteration  20/100 | Best training MMRE = 1.55791521
+      Iteration  30/100 | Best training MMRE = 1.55791521
+      Iteration  40/100 | Best training MMRE = 1.55791521
+      Iteration  50/100 | Best training MMRE = 1.55178785
+      Iteration  60/100 | Best training MMRE = 1.51915777
+      Iteration  70/100 | Best training MMRE = 1.51915777
+      Iteration  80/100 | Best training MMRE = 1.51690269
+      Iteration  90/100 | Best training MMRE = 1.51690269
+      Iteration 100/100 | Best training MMRE = 1.51690269
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 8/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 3/16: ['data', 'modp', 'loc']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 2.28732967
+      Iteration  10/100 | Best training MMRE = 1.53183222
+      Iteration  20/100 | Best training MMRE = 1.32312226
+      Iteration  30/100 | Best training MMRE = 1.31536210
+      Iteration  40/100 | Best training MMRE = 1.23571885
+      Iteration  50/100 | Best training MMRE = 1.14859593
+      Iteration  60/100 | Best training MMRE = 1.14859593
+      Iteration  70/100 | Best training MMRE = 1.14859593
+      Iteration  80/100 | Best training MMRE = 1.08397710
+      Iteration  90/100 | Best training MMRE = 1.08397710
+      Iteration 100/100 | Best training MMRE = 1.05555236
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.41311514
+      Iteration  10/100 | Best training MMRE = 1.39005291
+      Iteration  20/100 | Best training MMRE = 1.39005291
+      Iteration  30/100 | Best training MMRE = 1.39005291
+      Iteration  40/100 | Best training MMRE = 1.39005291
+      Iteration  50/100 | Best training MMRE = 1.39005291
+      Iteration  60/100 | Best training MMRE = 1.39005291
+      Iteration  70/100 | Best training MMRE = 1.39005291
+      Iteration  80/100 | Best training MMRE = 1.39005291
+      Iteration  90/100 | Best training MMRE = 1.39005291
+      Iteration 100/100 | Best training MMRE = 1.39005291
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 1.49499726
+      Iteration  10/100 | Best training MMRE = 1.46562183
+      Iteration  20/100 | Best training MMRE = 1.46562183
+      Iteration  30/100 | Best training MMRE = 1.46562183
+      Iteration  40/100 | Best training MMRE = 1.46562183
+      Iteration  50/100 | Best training MMRE = 1.46562183
+      Iteration  60/100 | Best training MMRE = 1.46562183
+      Iteration  70/100 | Best training MMRE = 1.46562183
+      Iteration  80/100 | Best training MMRE = 1.46278536
+      Iteration  90/100 | Best training MMRE = 1.46278536
+      Iteration 100/100 | Best training MMRE = 1.46278536
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 9/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 4/16: ['data', 'turn', 'modp', 'loc']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 1.38648915
+      Iteration  10/100 | Best training MMRE = 1.05432951
+      Iteration  20/100 | Best training MMRE = 1.05432951
+      Iteration  30/100 | Best training MMRE = 1.05432951
+      Iteration  40/100 | Best training MMRE = 1.05432951
+      Iteration  50/100 | Best training MMRE = 1.05432951
+      Iteration  60/100 | Best training MMRE = 1.00412643
+      Iteration  70/100 | Best training MMRE = 1.00412643
+      Iteration  80/100 | Best training MMRE = 1.00412643
+      Iteration  90/100 | Best training MMRE = 0.98900247
+      Iteration 100/100 | Best training MMRE = 0.98900247
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.49299145
+      Iteration  10/100 | Best training MMRE = 1.33088183
+      Iteration  20/100 | Best training MMRE = 1.30438876
+      Iteration  30/100 | Best training MMRE = 1.30438876
+      Iteration  40/100 | Best training MMRE = 1.30438876
+      Iteration  50/100 | Best training MMRE = 1.30438876
+      Iteration  60/100 | Best training MMRE = 1.30438876
+      Iteration  70/100 | Best training MMRE = 1.30438876
+      Iteration  80/100 | Best training MMRE = 1.30438876
+      Iteration  90/100 | Best training MMRE = 1.30438876
+      Iteration 100/100 | Best training MMRE = 1.30438876
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 1.64062500
+      Iteration  10/100 | Best training MMRE = 1.36281514
+      Iteration  20/100 | Best training MMRE = 1.35427630
+      Iteration  30/100 | Best training MMRE = 1.33482325
+      Iteration  40/100 | Best training MMRE = 1.33432353
+      Iteration  50/100 | Best training MMRE = 1.33432353
+      Iteration  60/100 | Best training MMRE = 1.33432353
+      Iteration  70/100 | Best training MMRE = 1.26012576
+      Iteration  80/100 | Best training MMRE = 1.23841774
+      Iteration  90/100 | Best training MMRE = 1.23841774
+      Iteration 100/100 | Best training MMRE = 1.23841774
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 10/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 3/16: ['data', 'modp', 'loc']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 2.39365339
+      Iteration  10/100 | Best training MMRE = 1.39495969
+      Iteration  20/100 | Best training MMRE = 1.30893862
+      Iteration  30/100 | Best training MMRE = 1.30893862
+      Iteration  40/100 | Best training MMRE = 1.18682075
+      Iteration  50/100 | Best training MMRE = 1.09969270
+      Iteration  60/100 | Best training MMRE = 1.09969270
+      Iteration  70/100 | Best training MMRE = 1.09969270
+      Iteration  80/100 | Best training MMRE = 1.09969270
+      Iteration  90/100 | Best training MMRE = 1.09969270
+      Iteration 100/100 | Best training MMRE = 1.09969270
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.33750379
+      Iteration  10/100 | Best training MMRE = 1.33518660
+      Iteration  20/100 | Best training MMRE = 1.33518660
+      Iteration  30/100 | Best training MMRE = 1.33518660
+      Iteration  40/100 | Best training MMRE = 1.33518660
+      Iteration  50/100 | Best training MMRE = 1.33518660
+      Iteration  60/100 | Best training MMRE = 1.33518660
+      Iteration  70/100 | Best training MMRE = 1.33518660
+      Iteration  80/100 | Best training MMRE = 1.33518660
+      Iteration  90/100 | Best training MMRE = 1.33518660
+      Iteration 100/100 | Best training MMRE = 1.33518660
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 1.69184732
+      Iteration  10/100 | Best training MMRE = 1.62119210
+      Iteration  20/100 | Best training MMRE = 1.61443615
+      Iteration  30/100 | Best training MMRE = 1.60482085
+      Iteration  40/100 | Best training MMRE = 1.60482085
+      Iteration  50/100 | Best training MMRE = 1.60482085
+      Iteration  60/100 | Best training MMRE = 1.60482085
+      Iteration  70/100 | Best training MMRE = 1.60482085
+      Iteration  80/100 | Best training MMRE = 1.60482085
+      Iteration  90/100 | Best training MMRE = 1.60482085
+      Iteration 100/100 | Best training MMRE = 1.60482085
+
+==============================================================================================================
+FINAL ABLATION RANKING
+==============================================================================================================
+ 1. FAABE_NO_IWM         | MMRE=1.47140700 | MAE=605.560838 | RMSE=1554.920000
+ 2. FAABE_NO_PEARSON     | MMRE=1.51878734 | MAE=537.221892 | RMSE=1478.562996
+ 3. FAABE_FULL           | MMRE=2.24502740 | MAE=713.237560 | RMSE=1802.034364
+ 4. FAABE_NO_FIREFLY     | MMRE=2.75086462 | MAE=697.634432 | RMSE=1750.034810
+ 5. ABE_BASE             | MMRE=3.30193922 | MAE=582.810614 | RMSE=1516.374082

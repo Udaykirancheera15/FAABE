@@ -1,0 +1,788 @@
+====================================================================================================
+DATASET: Albrecht
+====================================================================================================
+Device: cuda
+GPU: NVIDIA A100 80GB PCIe
+Loaded: albrecht.csv
+Projects: 24
+Predictors (7): ['Input', 'Output', 'Inquiry', 'File', 'FPAdj', 'RawFPcounts', 'AdjFP']
+Target: Effort
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 1/10 | train=21 test=3
+Selected 7/7: ['Input', 'Output', 'Inquiry', 'File', 'FPAdj', 'RawFPcounts', 'AdjFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.82283050 | evals=20
+      GA  iter  10 | best=0.67321587 | evals=110
+      GA  iter  20 | best=0.60124350 | evals=210
+      GA  iter  30 | best=0.59952819 | evals=310
+      GA  iter  40 | best=0.59919983 | evals=410
+      GA  iter  50 | best=0.59912390 | evals=510
+      GA  iter  60 | best=0.59838665 | evals=610
+      GA  iter  70 | best=0.59817016 | evals=710
+      GA  iter  80 | best=0.59760451 | evals=810
+      GA  iter  90 | best=0.59760451 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.87361348 | evals=20
+      PSO iter  10 | best=0.71735674 | evals=110
+      PSO iter  20 | best=0.70711714 | evals=210
+      PSO iter  30 | best=0.69857538 | evals=310
+      PSO iter  40 | best=0.69805217 | evals=410
+      PSO iter  50 | best=0.69694000 | evals=510
+      PSO iter  60 | best=0.69621843 | evals=610
+      PSO iter  70 | best=0.69532716 | evals=710
+      PSO iter  80 | best=0.69524950 | evals=810
+      PSO iter  90 | best=0.69518185 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.82239044 | evals=20
+      DE  iter  10 | best=0.79172009 | evals=110
+      DE  iter  20 | best=0.79127949 | evals=210
+      DE  iter  30 | best=0.79049581 | evals=310
+      DE  iter  40 | best=0.79038286 | evals=410
+      DE  iter  50 | best=0.79028833 | evals=510
+      DE  iter  60 | best=0.79025573 | evals=610
+      DE  iter  70 | best=0.79023963 | evals=710
+      DE  iter  80 | best=0.79022825 | evals=810
+      DE  iter  90 | best=0.79021710 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.69228387 | evals=20
+      GWO iter  10 | best=0.63505948 | evals=110
+      GWO iter  20 | best=0.61965156 | evals=210
+      GWO iter  30 | best=0.59262413 | evals=310
+      GWO iter  40 | best=0.59373194 | evals=410
+      GWO iter  50 | best=0.59415013 | evals=510
+      GWO iter  60 | best=0.58547640 | evals=610
+      GWO iter  70 | best=0.56517053 | evals=710
+      GWO iter  80 | best=0.56240118 | evals=810
+      GWO iter  90 | best=0.56395608 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.84334332 | evals=20
+      WOA iter  10 | best=0.65232295 | evals=110
+      WOA iter  20 | best=0.64469635 | evals=210
+      WOA iter  30 | best=0.63849533 | evals=310
+      WOA iter  40 | best=0.63840270 | evals=410
+      WOA iter  50 | best=0.63743740 | evals=510
+      WOA iter  60 | best=0.63525444 | evals=610
+      WOA iter  70 | best=0.62917638 | evals=710
+      WOA iter  80 | best=0.62913978 | evals=810
+      WOA iter  90 | best=0.62898475 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.74608034 | evals=20
+      FA  iter  10 | best=0.62484938 | evals=110
+      FA  iter  20 | best=0.62484938 | evals=210
+      FA  iter  30 | best=0.62484938 | evals=310
+      FA  iter  40 | best=0.62484938 | evals=410
+      FA  iter  50 | best=0.62484938 | evals=510
+      FA  iter  60 | best=0.62005323 | evals=610
+      FA  iter  70 | best=0.60507381 | evals=710
+      FA  iter  80 | best=0.59379095 | evals=810
+      FA  iter  90 | best=0.59379095 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 2/10 | train=21 test=3
+Selected 6/7: ['Input', 'Output', 'Inquiry', 'File', 'RawFPcounts', 'AdjFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.80829257 | evals=20
+      GA  iter  10 | best=0.78276944 | evals=110
+      GA  iter  20 | best=0.78276944 | evals=210
+      GA  iter  30 | best=0.78269577 | evals=310
+      GA  iter  40 | best=0.78253204 | evals=410
+      GA  iter  50 | best=0.78252751 | evals=510
+      GA  iter  60 | best=0.77977955 | evals=610
+      GA  iter  70 | best=0.77977955 | evals=710
+      GA  iter  80 | best=0.77957666 | evals=810
+      GA  iter  90 | best=0.77929991 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.84664029 | evals=20
+      PSO iter  10 | best=0.77107948 | evals=110
+      PSO iter  20 | best=0.76783103 | evals=210
+      PSO iter  30 | best=0.76767260 | evals=310
+      PSO iter  40 | best=0.76762754 | evals=410
+      PSO iter  50 | best=0.76760250 | evals=510
+      PSO iter  60 | best=0.76759505 | evals=610
+      PSO iter  70 | best=0.76759440 | evals=710
+      PSO iter  80 | best=0.76758534 | evals=810
+      PSO iter  90 | best=0.76758534 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.83684778 | evals=20
+      DE  iter  10 | best=0.78501332 | evals=110
+      DE  iter  20 | best=0.75508642 | evals=210
+      DE  iter  30 | best=0.75264925 | evals=310
+      DE  iter  40 | best=0.75241709 | evals=410
+      DE  iter  50 | best=0.75231338 | evals=510
+      DE  iter  60 | best=0.75222814 | evals=610
+      DE  iter  70 | best=0.75216514 | evals=710
+      DE  iter  80 | best=0.75211573 | evals=810
+      DE  iter  90 | best=0.75209290 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.85374868 | evals=20
+      GWO iter  10 | best=0.80261695 | evals=110
+      GWO iter  20 | best=0.83382255 | evals=210
+      GWO iter  30 | best=0.81395912 | evals=310
+      GWO iter  40 | best=0.82213801 | evals=410
+      GWO iter  50 | best=0.81372279 | evals=510
+      GWO iter  60 | best=0.82116228 | evals=610
+      GWO iter  70 | best=0.80564046 | evals=710
+      GWO iter  80 | best=0.80685574 | evals=810
+      GWO iter  90 | best=0.80395365 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.79243135 | evals=20
+      WOA iter  10 | best=0.79194725 | evals=110
+      WOA iter  20 | best=0.79190475 | evals=210
+      WOA iter  30 | best=0.79017711 | evals=310
+      WOA iter  40 | best=0.79016227 | evals=410
+      WOA iter  50 | best=0.79016113 | evals=510
+      WOA iter  60 | best=0.79016113 | evals=610
+      WOA iter  70 | best=0.79015797 | evals=710
+      WOA iter  80 | best=0.78835124 | evals=810
+      WOA iter  90 | best=0.78727490 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.83221585 | evals=20
+      FA  iter  10 | best=0.78784263 | evals=110
+      FA  iter  20 | best=0.78784263 | evals=210
+      FA  iter  30 | best=0.78784263 | evals=310
+      FA  iter  40 | best=0.78784263 | evals=410
+      FA  iter  50 | best=0.78784263 | evals=510
+      FA  iter  60 | best=0.78784263 | evals=610
+      FA  iter  70 | best=0.78784263 | evals=710
+      FA  iter  80 | best=0.78784263 | evals=810
+      FA  iter  90 | best=0.78784263 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 3/10 | train=21 test=3
+Selected 7/7: ['Input', 'Output', 'Inquiry', 'File', 'FPAdj', 'RawFPcounts', 'AdjFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.85861880 | evals=20
+      GA  iter  10 | best=0.64861554 | evals=110
+      GA  iter  20 | best=0.64618784 | evals=210
+      GA  iter  30 | best=0.61494005 | evals=310
+      GA  iter  40 | best=0.61286223 | evals=410
+      GA  iter  50 | best=0.61286116 | evals=510
+      GA  iter  60 | best=0.61270171 | evals=610
+      GA  iter  70 | best=0.61270171 | evals=710
+      GA  iter  80 | best=0.61270171 | evals=810
+      GA  iter  90 | best=0.61251330 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.76461846 | evals=20
+      PSO iter  10 | best=0.69040781 | evals=110
+      PSO iter  20 | best=0.65251863 | evals=210
+      PSO iter  30 | best=0.64728826 | evals=310
+      PSO iter  40 | best=0.62009370 | evals=410
+      PSO iter  50 | best=0.60325652 | evals=510
+      PSO iter  60 | best=0.60161299 | evals=610
+      PSO iter  70 | best=0.58871782 | evals=710
+      PSO iter  80 | best=0.58857119 | evals=810
+      PSO iter  90 | best=0.58840114 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.72859913 | evals=20
+      DE  iter  10 | best=0.68908185 | evals=110
+      DE  iter  20 | best=0.67809117 | evals=210
+      DE  iter  30 | best=0.67772704 | evals=310
+      DE  iter  40 | best=0.67731047 | evals=410
+      DE  iter  50 | best=0.67708850 | evals=510
+      DE  iter  60 | best=0.67693591 | evals=610
+      DE  iter  70 | best=0.67692792 | evals=710
+      DE  iter  80 | best=0.67689550 | evals=810
+      DE  iter  90 | best=0.67687142 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.84357744 | evals=20
+      GWO iter  10 | best=0.72116345 | evals=110
+      GWO iter  20 | best=0.67973989 | evals=210
+      GWO iter  30 | best=0.68269485 | evals=310
+      GWO iter  40 | best=0.68471563 | evals=410
+      GWO iter  50 | best=0.65115714 | evals=510
+      GWO iter  60 | best=0.64831424 | evals=610
+      GWO iter  70 | best=0.63060284 | evals=710
+      GWO iter  80 | best=0.62955588 | evals=810
+      GWO iter  90 | best=0.62862796 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.84273583 | evals=20
+      WOA iter  10 | best=0.66483933 | evals=110
+      WOA iter  20 | best=0.64556354 | evals=210
+      WOA iter  30 | best=0.63595957 | evals=310
+      WOA iter  40 | best=0.63044852 | evals=410
+      WOA iter  50 | best=0.63040090 | evals=510
+      WOA iter  60 | best=0.63040024 | evals=610
+      WOA iter  70 | best=0.63006246 | evals=710
+      WOA iter  80 | best=0.62986648 | evals=810
+      WOA iter  90 | best=0.62971967 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.84315765 | evals=20
+      FA  iter  10 | best=0.71055722 | evals=110
+      FA  iter  20 | best=0.64362556 | evals=210
+      FA  iter  30 | best=0.62586248 | evals=310
+      FA  iter  40 | best=0.57905877 | evals=410
+      FA  iter  50 | best=0.57905877 | evals=510
+      FA  iter  60 | best=0.57905877 | evals=610
+      FA  iter  70 | best=0.57905877 | evals=710
+      FA  iter  80 | best=0.57905877 | evals=810
+      FA  iter  90 | best=0.57905877 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 4/10 | train=21 test=3
+Selected 6/7: ['Input', 'Output', 'Inquiry', 'File', 'RawFPcounts', 'AdjFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.79490447 | evals=20
+      GA  iter  10 | best=0.67200363 | evals=110
+      GA  iter  20 | best=0.66625869 | evals=210
+      GA  iter  30 | best=0.66615164 | evals=310
+      GA  iter  40 | best=0.66558039 | evals=410
+      GA  iter  50 | best=0.66558039 | evals=510
+      GA  iter  60 | best=0.66525757 | evals=610
+      GA  iter  70 | best=0.66524625 | evals=710
+      GA  iter  80 | best=0.66508019 | evals=810
+      GA  iter  90 | best=0.66498357 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.69735318 | evals=20
+      PSO iter  10 | best=0.66822308 | evals=110
+      PSO iter  20 | best=0.66366547 | evals=210
+      PSO iter  30 | best=0.66293269 | evals=310
+      PSO iter  40 | best=0.66268522 | evals=410
+      PSO iter  50 | best=0.66265845 | evals=510
+      PSO iter  60 | best=0.66257179 | evals=610
+      PSO iter  70 | best=0.66255462 | evals=710
+      PSO iter  80 | best=0.66254306 | evals=810
+      PSO iter  90 | best=0.66253752 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.77631414 | evals=20
+      DE  iter  10 | best=0.71714264 | evals=110
+      DE  iter  20 | best=0.70090288 | evals=210
+      DE  iter  30 | best=0.70082486 | evals=310
+      DE  iter  40 | best=0.70078939 | evals=410
+      DE  iter  50 | best=0.70076078 | evals=510
+      DE  iter  60 | best=0.70075446 | evals=610
+      DE  iter  70 | best=0.70075262 | evals=710
+      DE  iter  80 | best=0.70075130 | evals=810
+      DE  iter  90 | best=0.70075113 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.72499406 | evals=20
+      GWO iter  10 | best=0.69989711 | evals=110
+      GWO iter  20 | best=0.73260516 | evals=210
+      GWO iter  30 | best=0.69276655 | evals=310
+      GWO iter  40 | best=0.69347054 | evals=410
+      GWO iter  50 | best=0.69315267 | evals=510
+      GWO iter  60 | best=0.69120401 | evals=610
+      GWO iter  70 | best=0.68442470 | evals=710
+      GWO iter  80 | best=0.68503690 | evals=810
+      GWO iter  90 | best=0.68549442 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.69928789 | evals=20
+      WOA iter  10 | best=0.69176513 | evals=110
+      WOA iter  20 | best=0.68685353 | evals=210
+      WOA iter  30 | best=0.68557429 | evals=310
+      WOA iter  40 | best=0.67784864 | evals=410
+      WOA iter  50 | best=0.67735898 | evals=510
+      WOA iter  60 | best=0.67608213 | evals=610
+      WOA iter  70 | best=0.67543292 | evals=710
+      WOA iter  80 | best=0.67405289 | evals=810
+      WOA iter  90 | best=0.67388248 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.71324331 | evals=20
+      FA  iter  10 | best=0.70863783 | evals=110
+      FA  iter  20 | best=0.70425469 | evals=210
+      FA  iter  30 | best=0.70425469 | evals=310
+      FA  iter  40 | best=0.69030082 | evals=410
+      FA  iter  50 | best=0.68177569 | evals=510
+      FA  iter  60 | best=0.67106545 | evals=610
+      FA  iter  70 | best=0.66106182 | evals=710
+      FA  iter  80 | best=0.66106182 | evals=810
+      FA  iter  90 | best=0.66106182 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 5/10 | train=22 test=2
+Selected 7/7: ['Input', 'Output', 'Inquiry', 'File', 'FPAdj', 'RawFPcounts', 'AdjFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.76679593 | evals=20
+      GA  iter  10 | best=0.57197338 | evals=110
+      GA  iter  20 | best=0.56484449 | evals=210
+      GA  iter  30 | best=0.56458449 | evals=310
+      GA  iter  40 | best=0.56457520 | evals=410
+      GA  iter  50 | best=0.56457520 | evals=510
+      GA  iter  60 | best=0.56456548 | evals=610
+      GA  iter  70 | best=0.56427938 | evals=710
+      GA  iter  80 | best=0.56427938 | evals=810
+      GA  iter  90 | best=0.56423849 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.79840177 | evals=20
+      PSO iter  10 | best=0.60998672 | evals=110
+      PSO iter  20 | best=0.56350011 | evals=210
+      PSO iter  30 | best=0.56252968 | evals=310
+      PSO iter  40 | best=0.56185848 | evals=410
+      PSO iter  50 | best=0.56177592 | evals=510
+      PSO iter  60 | best=0.56163877 | evals=610
+      PSO iter  70 | best=0.56159401 | evals=710
+      PSO iter  80 | best=0.56156141 | evals=810
+      PSO iter  90 | best=0.56137526 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.79250824 | evals=20
+      DE  iter  10 | best=0.74251127 | evals=110
+      DE  iter  20 | best=0.71869385 | evals=210
+      DE  iter  30 | best=0.71107501 | evals=310
+      DE  iter  40 | best=0.70425868 | evals=410
+      DE  iter  50 | best=0.70410746 | evals=510
+      DE  iter  60 | best=0.70402569 | evals=610
+      DE  iter  70 | best=0.70399088 | evals=710
+      DE  iter  80 | best=0.70393926 | evals=810
+      DE  iter  90 | best=0.70392758 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.71595591 | evals=20
+      GWO iter  10 | best=0.61338025 | evals=110
+      GWO iter  20 | best=0.61027014 | evals=210
+      GWO iter  30 | best=0.62106776 | evals=310
+      GWO iter  40 | best=0.61272430 | evals=410
+      GWO iter  50 | best=0.61452770 | evals=510
+      GWO iter  60 | best=0.60627377 | evals=610
+      GWO iter  70 | best=0.58758217 | evals=710
+      GWO iter  80 | best=0.58647007 | evals=810
+      GWO iter  90 | best=0.58591032 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.69885081 | evals=20
+      WOA iter  10 | best=0.59582329 | evals=110
+      WOA iter  20 | best=0.59489548 | evals=210
+      WOA iter  30 | best=0.59389281 | evals=310
+      WOA iter  40 | best=0.59379929 | evals=410
+      WOA iter  50 | best=0.59363014 | evals=510
+      WOA iter  60 | best=0.59362561 | evals=610
+      WOA iter  70 | best=0.58479261 | evals=710
+      WOA iter  80 | best=0.58255643 | evals=810
+      WOA iter  90 | best=0.58172286 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.80469352 | evals=20
+      FA  iter  10 | best=0.75498074 | evals=110
+      FA  iter  20 | best=0.64717633 | evals=210
+      FA  iter  30 | best=0.64717633 | evals=310
+      FA  iter  40 | best=0.64717633 | evals=410
+      FA  iter  50 | best=0.64354914 | evals=510
+      FA  iter  60 | best=0.60843879 | evals=610
+      FA  iter  70 | best=0.60843879 | evals=710
+      FA  iter  80 | best=0.60843879 | evals=810
+      FA  iter  90 | best=0.60163963 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 6/10 | train=22 test=2
+Selected 7/7: ['Input', 'Output', 'Inquiry', 'File', 'FPAdj', 'RawFPcounts', 'AdjFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.36627549 | evals=20
+      GA  iter  10 | best=0.33821771 | evals=110
+      GA  iter  20 | best=0.32732102 | evals=210
+      GA  iter  30 | best=0.32694700 | evals=310
+      GA  iter  40 | best=0.32303637 | evals=410
+      GA  iter  50 | best=0.32282639 | evals=510
+      GA  iter  60 | best=0.32279366 | evals=610
+      GA  iter  70 | best=0.31428668 | evals=710
+      GA  iter  80 | best=0.30786732 | evals=810
+      GA  iter  90 | best=0.30456382 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.38611954 | evals=20
+      PSO iter  10 | best=0.35184741 | evals=110
+      PSO iter  20 | best=0.34914026 | evals=210
+      PSO iter  30 | best=0.33597478 | evals=310
+      PSO iter  40 | best=0.33575118 | evals=410
+      PSO iter  50 | best=0.33200803 | evals=510
+      PSO iter  60 | best=0.33146018 | evals=610
+      PSO iter  70 | best=0.33116594 | evals=710
+      PSO iter  80 | best=0.33085081 | evals=810
+      PSO iter  90 | best=0.33082497 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.39262080 | evals=20
+      DE  iter  10 | best=0.36384055 | evals=110
+      DE  iter  20 | best=0.33252549 | evals=210
+      DE  iter  30 | best=0.31596351 | evals=310
+      DE  iter  40 | best=0.30518275 | evals=410
+      DE  iter  50 | best=0.30504966 | evals=510
+      DE  iter  60 | best=0.30481568 | evals=610
+      DE  iter  70 | best=0.30479315 | evals=710
+      DE  iter  80 | best=0.30477735 | evals=810
+      DE  iter  90 | best=0.30477163 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.40959072 | evals=20
+      GWO iter  10 | best=0.35886535 | evals=110
+      GWO iter  20 | best=0.34711456 | evals=210
+      GWO iter  30 | best=0.30574429 | evals=310
+      GWO iter  40 | best=0.32923788 | evals=410
+      GWO iter  50 | best=0.33162436 | evals=510
+      GWO iter  60 | best=0.34138858 | evals=610
+      GWO iter  70 | best=0.30599281 | evals=710
+      GWO iter  80 | best=0.30035597 | evals=810
+      GWO iter  90 | best=0.29966533 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.39146042 | evals=20
+      WOA iter  10 | best=0.32929870 | evals=110
+      WOA iter  20 | best=0.32879874 | evals=210
+      WOA iter  30 | best=0.32879645 | evals=310
+      WOA iter  40 | best=0.32661629 | evals=410
+      WOA iter  50 | best=0.32627979 | evals=510
+      WOA iter  60 | best=0.32560411 | evals=610
+      WOA iter  70 | best=0.32559457 | evals=710
+      WOA iter  80 | best=0.32398325 | evals=810
+      WOA iter  90 | best=0.32203865 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.37893924 | evals=20
+      FA  iter  10 | best=0.33738247 | evals=110
+      FA  iter  20 | best=0.33738247 | evals=210
+      FA  iter  30 | best=0.33738247 | evals=310
+      FA  iter  40 | best=0.33738247 | evals=410
+      FA  iter  50 | best=0.33738247 | evals=510
+      FA  iter  60 | best=0.33738247 | evals=610
+      FA  iter  70 | best=0.33738247 | evals=710
+      FA  iter  80 | best=0.33738247 | evals=810
+      FA  iter  90 | best=0.33738247 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 7/10 | train=22 test=2
+Selected 7/7: ['Input', 'Output', 'Inquiry', 'File', 'FPAdj', 'RawFPcounts', 'AdjFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.74736112 | evals=20
+      GA  iter  10 | best=0.64404887 | evals=110
+      GA  iter  20 | best=0.58731663 | evals=210
+      GA  iter  30 | best=0.58568698 | evals=310
+      GA  iter  40 | best=0.58549356 | evals=410
+      GA  iter  50 | best=0.58348191 | evals=510
+      GA  iter  60 | best=0.57733321 | evals=610
+      GA  iter  70 | best=0.57572770 | evals=710
+      GA  iter  80 | best=0.57292432 | evals=810
+      GA  iter  90 | best=0.57268095 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.73211414 | evals=20
+      PSO iter  10 | best=0.66056448 | evals=110
+      PSO iter  20 | best=0.57968247 | evals=210
+      PSO iter  30 | best=0.57493186 | evals=310
+      PSO iter  40 | best=0.57361740 | evals=410
+      PSO iter  50 | best=0.57153261 | evals=510
+      PSO iter  60 | best=0.57122183 | evals=610
+      PSO iter  70 | best=0.57101279 | evals=710
+      PSO iter  80 | best=0.57079619 | evals=810
+      PSO iter  90 | best=0.57077485 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.76216650 | evals=20
+      DE  iter  10 | best=0.68764395 | evals=110
+      DE  iter  20 | best=0.64970464 | evals=210
+      DE  iter  30 | best=0.63459951 | evals=310
+      DE  iter  40 | best=0.63400745 | evals=410
+      DE  iter  50 | best=0.63376105 | evals=510
+      DE  iter  60 | best=0.63370955 | evals=610
+      DE  iter  70 | best=0.63369685 | evals=710
+      DE  iter  80 | best=0.63367790 | evals=810
+      DE  iter  90 | best=0.63367480 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.76895368 | evals=20
+      GWO iter  10 | best=0.61938298 | evals=110
+      GWO iter  20 | best=0.61105442 | evals=210
+      GWO iter  30 | best=0.62213147 | evals=310
+      GWO iter  40 | best=0.58534890 | evals=410
+      GWO iter  50 | best=0.57787108 | evals=510
+      GWO iter  60 | best=0.58046395 | evals=610
+      GWO iter  70 | best=0.57368851 | evals=710
+      GWO iter  80 | best=0.57400024 | evals=810
+      GWO iter  90 | best=0.57201773 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.75290060 | evals=20
+      WOA iter  10 | best=0.73782605 | evals=110
+      WOA iter  20 | best=0.73724937 | evals=210
+      WOA iter  30 | best=0.72735554 | evals=310
+      WOA iter  40 | best=0.61384183 | evals=410
+      WOA iter  50 | best=0.57829142 | evals=510
+      WOA iter  60 | best=0.57827532 | evals=610
+      WOA iter  70 | best=0.57822394 | evals=710
+      WOA iter  80 | best=0.57820779 | evals=810
+      WOA iter  90 | best=0.57807553 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.70738357 | evals=20
+      FA  iter  10 | best=0.60683978 | evals=110
+      FA  iter  20 | best=0.60683978 | evals=210
+      FA  iter  30 | best=0.60683978 | evals=310
+      FA  iter  40 | best=0.60683978 | evals=410
+      FA  iter  50 | best=0.60683978 | evals=510
+      FA  iter  60 | best=0.60482246 | evals=610
+      FA  iter  70 | best=0.60389912 | evals=710
+      FA  iter  80 | best=0.59673643 | evals=810
+      FA  iter  90 | best=0.59673643 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 8/10 | train=22 test=2
+Selected 7/7: ['Input', 'Output', 'Inquiry', 'File', 'FPAdj', 'RawFPcounts', 'AdjFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.85192984 | evals=20
+      GA  iter  10 | best=0.65450495 | evals=110
+      GA  iter  20 | best=0.56924760 | evals=210
+      GA  iter  30 | best=0.56881624 | evals=310
+      GA  iter  40 | best=0.56739652 | evals=410
+      GA  iter  50 | best=0.56739646 | evals=510
+      GA  iter  60 | best=0.56739646 | evals=610
+      GA  iter  70 | best=0.56739646 | evals=710
+      GA  iter  80 | best=0.56739646 | evals=810
+      GA  iter  90 | best=0.56002665 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.71725249 | evals=20
+      PSO iter  10 | best=0.58778232 | evals=110
+      PSO iter  20 | best=0.56941473 | evals=210
+      PSO iter  30 | best=0.55998009 | evals=310
+      PSO iter  40 | best=0.55962151 | evals=410
+      PSO iter  50 | best=0.55897200 | evals=510
+      PSO iter  60 | best=0.55886114 | evals=610
+      PSO iter  70 | best=0.55867177 | evals=710
+      PSO iter  80 | best=0.55867177 | evals=810
+      PSO iter  90 | best=0.55862457 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.84365165 | evals=20
+      DE  iter  10 | best=0.79121572 | evals=110
+      DE  iter  20 | best=0.78633952 | evals=210
+      DE  iter  30 | best=0.78620178 | evals=310
+      DE  iter  40 | best=0.78570932 | evals=410
+      DE  iter  50 | best=0.78493154 | evals=510
+      DE  iter  60 | best=0.78488195 | evals=610
+      DE  iter  70 | best=0.78478622 | evals=710
+      DE  iter  80 | best=0.78475952 | evals=810
+      DE  iter  90 | best=0.78474683 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.77818596 | evals=20
+      GWO iter  10 | best=0.62043452 | evals=110
+      GWO iter  20 | best=0.57960492 | evals=210
+      GWO iter  30 | best=0.58430874 | evals=310
+      GWO iter  40 | best=0.56884575 | evals=410
+      GWO iter  50 | best=0.57097453 | evals=510
+      GWO iter  60 | best=0.56913805 | evals=610
+      GWO iter  70 | best=0.56883204 | evals=710
+      GWO iter  80 | best=0.56806076 | evals=810
+      GWO iter  90 | best=0.56841165 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.72609031 | evals=20
+      WOA iter  10 | best=0.66286677 | evals=110
+      WOA iter  20 | best=0.56872952 | evals=210
+      WOA iter  30 | best=0.56832623 | evals=310
+      WOA iter  40 | best=0.56819540 | evals=410
+      WOA iter  50 | best=0.56751281 | evals=510
+      WOA iter  60 | best=0.56137651 | evals=610
+      WOA iter  70 | best=0.55937386 | evals=710
+      WOA iter  80 | best=0.55898774 | evals=810
+      WOA iter  90 | best=0.55857104 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.82513136 | evals=20
+      FA  iter  10 | best=0.79618424 | evals=110
+      FA  iter  20 | best=0.78809708 | evals=210
+      FA  iter  30 | best=0.78809708 | evals=310
+      FA  iter  40 | best=0.78809708 | evals=410
+      FA  iter  50 | best=0.78809708 | evals=510
+      FA  iter  60 | best=0.77867460 | evals=610
+      FA  iter  70 | best=0.77867460 | evals=710
+      FA  iter  80 | best=0.77867460 | evals=810
+      FA  iter  90 | best=0.77867460 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 9/10 | train=22 test=2
+Selected 6/7: ['Input', 'Output', 'Inquiry', 'File', 'RawFPcounts', 'AdjFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.81708175 | evals=20
+      GA  iter  10 | best=0.79282928 | evals=110
+      GA  iter  20 | best=0.77637815 | evals=210
+      GA  iter  30 | best=0.75234938 | evals=310
+      GA  iter  40 | best=0.74879616 | evals=410
+      GA  iter  50 | best=0.74761194 | evals=510
+      GA  iter  60 | best=0.74155056 | evals=610
+      GA  iter  70 | best=0.74151248 | evals=710
+      GA  iter  80 | best=0.74147606 | evals=810
+      GA  iter  90 | best=0.74111170 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.77219707 | evals=20
+      PSO iter  10 | best=0.69436878 | evals=110
+      PSO iter  20 | best=0.68439686 | evals=210
+      PSO iter  30 | best=0.68070543 | evals=310
+      PSO iter  40 | best=0.68046451 | evals=410
+      PSO iter  50 | best=0.68043518 | evals=510
+      PSO iter  60 | best=0.68043071 | evals=610
+      PSO iter  70 | best=0.68027771 | evals=710
+      PSO iter  80 | best=0.68000829 | evals=810
+      PSO iter  90 | best=0.67990124 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.79877925 | evals=20
+      DE  iter  10 | best=0.72001851 | evals=110
+      DE  iter  20 | best=0.68954563 | evals=210
+      DE  iter  30 | best=0.67081201 | evals=310
+      DE  iter  40 | best=0.66529298 | evals=410
+      DE  iter  50 | best=0.66480070 | evals=510
+      DE  iter  60 | best=0.66443443 | evals=610
+      DE  iter  70 | best=0.66429168 | evals=710
+      DE  iter  80 | best=0.66424829 | evals=810
+      DE  iter  90 | best=0.66422695 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.75673026 | evals=20
+      GWO iter  10 | best=0.67838252 | evals=110
+      GWO iter  20 | best=0.65302074 | evals=210
+      GWO iter  30 | best=0.62764317 | evals=310
+      GWO iter  40 | best=0.65074509 | evals=410
+      GWO iter  50 | best=0.62806773 | evals=510
+      GWO iter  60 | best=0.63783205 | evals=610
+      GWO iter  70 | best=0.62021464 | evals=710
+      GWO iter  80 | best=0.63939363 | evals=810
+      GWO iter  90 | best=0.63232416 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.78252500 | evals=20
+      WOA iter  10 | best=0.74742109 | evals=110
+      WOA iter  20 | best=0.71062410 | evals=210
+      WOA iter  30 | best=0.70568085 | evals=310
+      WOA iter  40 | best=0.70473433 | evals=410
+      WOA iter  50 | best=0.62669671 | evals=510
+      WOA iter  60 | best=0.62114459 | evals=610
+      WOA iter  70 | best=0.62067252 | evals=710
+      WOA iter  80 | best=0.62055522 | evals=810
+      WOA iter  90 | best=0.61925203 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.76433545 | evals=20
+      FA  iter  10 | best=0.70950091 | evals=110
+      FA  iter  20 | best=0.65493041 | evals=210
+      FA  iter  30 | best=0.64309150 | evals=310
+      FA  iter  40 | best=0.64309150 | evals=410
+      FA  iter  50 | best=0.64309150 | evals=510
+      FA  iter  60 | best=0.63927764 | evals=610
+      FA  iter  70 | best=0.62908071 | evals=710
+      FA  iter  80 | best=0.62908071 | evals=810
+      FA  iter  90 | best=0.62908071 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 10/10 | train=22 test=2
+Selected 6/7: ['Input', 'Output', 'Inquiry', 'File', 'RawFPcounts', 'AdjFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.68695784 | evals=20
+      GA  iter  10 | best=0.68210500 | evals=110
+      GA  iter  20 | best=0.68195039 | evals=210
+      GA  iter  30 | best=0.68163300 | evals=310
+      GA  iter  40 | best=0.68132317 | evals=410
+      GA  iter  50 | best=0.68115026 | evals=510
+      GA  iter  60 | best=0.68108380 | evals=610
+      GA  iter  70 | best=0.68095177 | evals=710
+      GA  iter  80 | best=0.68088359 | evals=810
+      GA  iter  90 | best=0.68068969 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.70099711 | evals=20
+      PSO iter  10 | best=0.64995271 | evals=110
+      PSO iter  20 | best=0.64618701 | evals=210
+      PSO iter  30 | best=0.64618701 | evals=310
+      PSO iter  40 | best=0.64105034 | evals=410
+      PSO iter  50 | best=0.64054620 | evals=510
+      PSO iter  60 | best=0.64046323 | evals=610
+      PSO iter  70 | best=0.64033478 | evals=710
+      PSO iter  80 | best=0.64030015 | evals=810
+      PSO iter  90 | best=0.64026302 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.68782932 | evals=20
+      DE  iter  10 | best=0.67776656 | evals=110
+      DE  iter  20 | best=0.67160988 | evals=210
+      DE  iter  30 | best=0.66701078 | evals=310
+      DE  iter  40 | best=0.66235894 | evals=410
+      DE  iter  50 | best=0.66111714 | evals=510
+      DE  iter  60 | best=0.66111714 | evals=610
+      DE  iter  70 | best=0.66099358 | evals=710
+      DE  iter  80 | best=0.66091204 | evals=810
+      DE  iter  90 | best=0.66086721 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.67365265 | evals=20
+      GWO iter  10 | best=0.69744319 | evals=110
+      GWO iter  20 | best=0.70067513 | evals=210
+      GWO iter  30 | best=0.67872518 | evals=310
+      GWO iter  40 | best=0.67538685 | evals=410
+      GWO iter  50 | best=0.64895457 | evals=510
+      GWO iter  60 | best=0.65254825 | evals=610
+      GWO iter  70 | best=0.63440990 | evals=710
+      GWO iter  80 | best=0.62361062 | evals=810
+      GWO iter  90 | best=0.62861854 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.67729944 | evals=20
+      WOA iter  10 | best=0.67109269 | evals=110
+      WOA iter  20 | best=0.63251019 | evals=210
+      WOA iter  30 | best=0.63243771 | evals=310
+      WOA iter  40 | best=0.63240224 | evals=410
+      WOA iter  50 | best=0.63236582 | evals=510
+      WOA iter  60 | best=0.63236362 | evals=610
+      WOA iter  70 | best=0.63233334 | evals=710
+      WOA iter  80 | best=0.63228607 | evals=810
+      WOA iter  90 | best=0.63228333 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.68419838 | evals=20
+      FA  iter  10 | best=0.65675753 | evals=110
+      FA  iter  20 | best=0.65447915 | evals=210
+      FA  iter  30 | best=0.65447915 | evals=310
+      FA  iter  40 | best=0.65411580 | evals=410
+      FA  iter  50 | best=0.65411580 | evals=510
+      FA  iter  60 | best=0.65411580 | evals=610
+      FA  iter  70 | best=0.65342361 | evals=710
+      FA  iter  80 | best=0.65342361 | evals=810
+      FA  iter  90 | best=0.65342361 | evals=910
+
+FINAL RANKING
+ MMRE_Rank  Method     MMRE       MAE      RMSE
+         1 GWO-ABE 0.685154  8.248571 14.070768
+         2  DE-ABE 0.706525  8.348692 12.942686
+         3 PSO-ABE 0.727303  9.038423 14.347562
+         4     ABE 0.781075  8.277840 13.816246
+         5 WOA-ABE 0.795726 10.459007 17.039685
+         6  GA-ABE 0.807062  7.783826 11.876316
+         7   FAABE 0.864932  8.240048 13.518707
+
+FAABE VS BASELINES
+ Dataset Baseline Proposed  Valid_Pairs  Baseline_MMRE  FAABE_MMRE  FAABE_MMRE_Improvement_%  Wilcoxon_Statistic  Wilcoxon_p  Cliffs_Delta Cliffs_Effect  Wilcoxon_p_Holm  Significant_Holm_0.05
+Albrecht      ABE    FAABE           24       0.781075    0.864932                -10.736025               131.0    0.603311     -0.017361    Negligible              1.0                  False
+Albrecht   GA-ABE    FAABE           24       0.807062    0.864932                 -7.170501               141.0    0.811536      0.104167    Negligible              1.0                  False
+Albrecht  PSO-ABE    FAABE           24       0.727303    0.864932                -18.923255               126.0    0.508766      0.131944    Negligible              1.0                  False
+Albrecht   DE-ABE    FAABE           24       0.706525    0.864932                -22.420642               145.0    0.899570      0.052083    Negligible              1.0                  False
+Albrecht  GWO-ABE    FAABE           24       0.685154    0.864932                -26.239114               135.0    0.683986      0.027778    Negligible              1.0                  False
+Albrecht  WOA-ABE    FAABE           24       0.795726    0.864932                 -8.697253               136.0    0.704756      0.152778         Small              1.0                  False

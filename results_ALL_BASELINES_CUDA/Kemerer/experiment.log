@@ -1,0 +1,788 @@
+====================================================================================================
+DATASET: Kemerer
+====================================================================================================
+Device: cuda
+GPU: NVIDIA A100 80GB PCIe
+Loaded: kemerer.csv
+Projects: 15
+Predictors (6): ['Language', 'Hardware', 'Duration', 'KSLOC', 'AdjFP', 'RAWFP']
+Target: EffortMM
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 1/10 | train=13 test=2
+Selected 4/6: ['Language', 'KSLOC', 'AdjFP', 'RAWFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.56980008 | evals=20
+      GA  iter  10 | best=0.56783372 | evals=110
+      GA  iter  20 | best=0.56783372 | evals=210
+      GA  iter  30 | best=0.55427670 | evals=310
+      GA  iter  40 | best=0.55370390 | evals=410
+      GA  iter  50 | best=0.55361587 | evals=510
+      GA  iter  60 | best=0.55361587 | evals=610
+      GA  iter  70 | best=0.55315793 | evals=710
+      GA  iter  80 | best=0.55311978 | evals=810
+      GA  iter  90 | best=0.55311978 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.57512987 | evals=20
+      PSO iter  10 | best=0.55634469 | evals=110
+      PSO iter  20 | best=0.55287802 | evals=210
+      PSO iter  30 | best=0.55254680 | evals=310
+      PSO iter  40 | best=0.55236495 | evals=410
+      PSO iter  50 | best=0.55233347 | evals=510
+      PSO iter  60 | best=0.55232811 | evals=610
+      PSO iter  70 | best=0.55232704 | evals=710
+      PSO iter  80 | best=0.55232209 | evals=810
+      PSO iter  90 | best=0.55231559 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.57757199 | evals=20
+      DE  iter  10 | best=0.55584067 | evals=110
+      DE  iter  20 | best=0.55346000 | evals=210
+      DE  iter  30 | best=0.55282968 | evals=310
+      DE  iter  40 | best=0.55277002 | evals=410
+      DE  iter  50 | best=0.55276406 | evals=510
+      DE  iter  60 | best=0.55274612 | evals=610
+      DE  iter  70 | best=0.55272913 | evals=710
+      DE  iter  80 | best=0.55272692 | evals=810
+      DE  iter  90 | best=0.55272675 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.56404108 | evals=20
+      GWO iter  10 | best=0.56298304 | evals=110
+      GWO iter  20 | best=0.56846601 | evals=210
+      GWO iter  30 | best=0.57139999 | evals=310
+      GWO iter  40 | best=0.56389159 | evals=410
+      GWO iter  50 | best=0.56644106 | evals=510
+      GWO iter  60 | best=0.56348652 | evals=610
+      GWO iter  70 | best=0.56322205 | evals=710
+      GWO iter  80 | best=0.56916445 | evals=810
+      GWO iter  90 | best=0.56876951 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.57417673 | evals=20
+      WOA iter  10 | best=0.56803113 | evals=110
+      WOA iter  20 | best=0.56792736 | evals=210
+      WOA iter  30 | best=0.56792736 | evals=310
+      WOA iter  40 | best=0.56792694 | evals=410
+      WOA iter  50 | best=0.56792676 | evals=510
+      WOA iter  60 | best=0.56792653 | evals=610
+      WOA iter  70 | best=0.56418544 | evals=710
+      WOA iter  80 | best=0.56283599 | evals=810
+      WOA iter  90 | best=0.56273842 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.57765561 | evals=20
+      FA  iter  10 | best=0.57066077 | evals=110
+      FA  iter  20 | best=0.56829619 | evals=210
+      FA  iter  30 | best=0.56758177 | evals=310
+      FA  iter  40 | best=0.55814254 | evals=410
+      FA  iter  50 | best=0.55296600 | evals=510
+      FA  iter  60 | best=0.55296600 | evals=610
+      FA  iter  70 | best=0.55296600 | evals=710
+      FA  iter  80 | best=0.55296600 | evals=810
+      FA  iter  90 | best=0.55296600 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 2/10 | train=13 test=2
+Selected 3/6: ['KSLOC', 'AdjFP', 'RAWFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.61086208 | evals=20
+      GA  iter  10 | best=0.55684042 | evals=110
+      GA  iter  20 | best=0.55566150 | evals=210
+      GA  iter  30 | best=0.55566150 | evals=310
+      GA  iter  40 | best=0.55566150 | evals=410
+      GA  iter  50 | best=0.55566150 | evals=510
+      GA  iter  60 | best=0.55566150 | evals=610
+      GA  iter  70 | best=0.55566150 | evals=710
+      GA  iter  80 | best=0.55566150 | evals=810
+      GA  iter  90 | best=0.55565304 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.55607152 | evals=20
+      PSO iter  10 | best=0.55564940 | evals=110
+      PSO iter  20 | best=0.55562443 | evals=210
+      PSO iter  30 | best=0.55561405 | evals=310
+      PSO iter  40 | best=0.55561227 | evals=410
+      PSO iter  50 | best=0.55561191 | evals=510
+      PSO iter  60 | best=0.55561191 | evals=610
+      PSO iter  70 | best=0.55561185 | evals=710
+      PSO iter  80 | best=0.55561185 | evals=810
+      PSO iter  90 | best=0.55561185 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.60887235 | evals=20
+      DE  iter  10 | best=0.56131107 | evals=110
+      DE  iter  20 | best=0.56079596 | evals=210
+      DE  iter  30 | best=0.56065530 | evals=310
+      DE  iter  40 | best=0.56061292 | evals=410
+      DE  iter  50 | best=0.56060737 | evals=510
+      DE  iter  60 | best=0.56060570 | evals=610
+      DE  iter  70 | best=0.56060529 | evals=710
+      DE  iter  80 | best=0.56060499 | evals=810
+      DE  iter  90 | best=0.56060487 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.61288261 | evals=20
+      GWO iter  10 | best=0.56791776 | evals=110
+      GWO iter  20 | best=0.60609978 | evals=210
+      GWO iter  30 | best=0.60609978 | evals=310
+      GWO iter  40 | best=0.60609978 | evals=410
+      GWO iter  50 | best=0.60609978 | evals=510
+      GWO iter  60 | best=0.60609978 | evals=610
+      GWO iter  70 | best=0.60609978 | evals=710
+      GWO iter  80 | best=0.60609978 | evals=810
+      GWO iter  90 | best=0.60609978 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.60703200 | evals=20
+      WOA iter  10 | best=0.57890391 | evals=110
+      WOA iter  20 | best=0.57889974 | evals=210
+      WOA iter  30 | best=0.57889253 | evals=310
+      WOA iter  40 | best=0.57889128 | evals=410
+      WOA iter  50 | best=0.57888758 | evals=510
+      WOA iter  60 | best=0.57888758 | evals=610
+      WOA iter  70 | best=0.57888716 | evals=710
+      WOA iter  80 | best=0.57888198 | evals=810
+      WOA iter  90 | best=0.57888198 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.61326677 | evals=20
+      FA  iter  10 | best=0.60609978 | evals=110
+      FA  iter  20 | best=0.57898539 | evals=210
+      FA  iter  30 | best=0.57892728 | evals=310
+      FA  iter  40 | best=0.57892728 | evals=410
+      FA  iter  50 | best=0.57892728 | evals=510
+      FA  iter  60 | best=0.57892728 | evals=610
+      FA  iter  70 | best=0.57892728 | evals=710
+      FA  iter  80 | best=0.57892728 | evals=810
+      FA  iter  90 | best=0.57892728 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 3/10 | train=13 test=2
+Selected 4/6: ['Language', 'KSLOC', 'AdjFP', 'RAWFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.57221562 | evals=20
+      GA  iter  10 | best=0.55286378 | evals=110
+      GA  iter  20 | best=0.55282849 | evals=210
+      GA  iter  30 | best=0.54548395 | evals=310
+      GA  iter  40 | best=0.54519910 | evals=410
+      GA  iter  50 | best=0.54507333 | evals=510
+      GA  iter  60 | best=0.54500902 | evals=610
+      GA  iter  70 | best=0.54492581 | evals=710
+      GA  iter  80 | best=0.54490960 | evals=810
+      GA  iter  90 | best=0.54435033 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.58319843 | evals=20
+      PSO iter  10 | best=0.54439390 | evals=110
+      PSO iter  20 | best=0.54439390 | evals=210
+      PSO iter  30 | best=0.54436964 | evals=310
+      PSO iter  40 | best=0.54432881 | evals=410
+      PSO iter  50 | best=0.54432881 | evals=510
+      PSO iter  60 | best=0.54432464 | evals=610
+      PSO iter  70 | best=0.54432464 | evals=710
+      PSO iter  80 | best=0.54431361 | evals=810
+      PSO iter  90 | best=0.54429269 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.58297670 | evals=20
+      DE  iter  10 | best=0.57010484 | evals=110
+      DE  iter  20 | best=0.56790590 | evals=210
+      DE  iter  30 | best=0.56636983 | evals=310
+      DE  iter  40 | best=0.56576174 | evals=410
+      DE  iter  50 | best=0.56564951 | evals=510
+      DE  iter  60 | best=0.56561589 | evals=610
+      DE  iter  70 | best=0.56557035 | evals=710
+      DE  iter  80 | best=0.56555063 | evals=810
+      DE  iter  90 | best=0.56553292 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.57368773 | evals=20
+      GWO iter  10 | best=0.55818814 | evals=110
+      GWO iter  20 | best=0.55308884 | evals=210
+      GWO iter  30 | best=0.54997247 | evals=310
+      GWO iter  40 | best=0.54795629 | evals=410
+      GWO iter  50 | best=0.54595983 | evals=510
+      GWO iter  60 | best=0.54838067 | evals=610
+      GWO iter  70 | best=0.54857802 | evals=710
+      GWO iter  80 | best=0.54425907 | evals=810
+      GWO iter  90 | best=0.54486430 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.57879299 | evals=20
+      WOA iter  10 | best=0.54550517 | evals=110
+      WOA iter  20 | best=0.54449326 | evals=210
+      WOA iter  30 | best=0.54435587 | evals=310
+      WOA iter  40 | best=0.54435450 | evals=410
+      WOA iter  50 | best=0.54435450 | evals=510
+      WOA iter  60 | best=0.54435450 | evals=610
+      WOA iter  70 | best=0.54435450 | evals=710
+      WOA iter  80 | best=0.54435450 | evals=810
+      WOA iter  90 | best=0.54435343 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.59228861 | evals=20
+      FA  iter  10 | best=0.54690093 | evals=110
+      FA  iter  20 | best=0.54633462 | evals=210
+      FA  iter  30 | best=0.54633462 | evals=310
+      FA  iter  40 | best=0.54585046 | evals=410
+      FA  iter  50 | best=0.54575998 | evals=510
+      FA  iter  60 | best=0.54455560 | evals=610
+      FA  iter  70 | best=0.54455560 | evals=710
+      FA  iter  80 | best=0.54455042 | evals=810
+      FA  iter  90 | best=0.54455042 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 4/10 | train=13 test=2
+Selected 5/6: ['Language', 'Duration', 'KSLOC', 'AdjFP', 'RAWFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.55720037 | evals=20
+      GA  iter  10 | best=0.53457028 | evals=110
+      GA  iter  20 | best=0.52989680 | evals=210
+      GA  iter  30 | best=0.52944452 | evals=310
+      GA  iter  40 | best=0.52944452 | evals=410
+      GA  iter  50 | best=0.52914512 | evals=510
+      GA  iter  60 | best=0.52632791 | evals=610
+      GA  iter  70 | best=0.52563465 | evals=710
+      GA  iter  80 | best=0.52539265 | evals=810
+      GA  iter  90 | best=0.52518755 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.51036263 | evals=20
+      PSO iter  10 | best=0.50971985 | evals=110
+      PSO iter  20 | best=0.50570655 | evals=210
+      PSO iter  30 | best=0.50521040 | evals=310
+      PSO iter  40 | best=0.50511330 | evals=410
+      PSO iter  50 | best=0.50508177 | evals=510
+      PSO iter  60 | best=0.50506842 | evals=610
+      PSO iter  70 | best=0.50506616 | evals=710
+      PSO iter  80 | best=0.50506616 | evals=810
+      PSO iter  90 | best=0.50506544 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.59217662 | evals=20
+      DE  iter  10 | best=0.50777352 | evals=110
+      DE  iter  20 | best=0.50638098 | evals=210
+      DE  iter  30 | best=0.50541580 | evals=310
+      DE  iter  40 | best=0.50534230 | evals=410
+      DE  iter  50 | best=0.50531691 | evals=510
+      DE  iter  60 | best=0.50530016 | evals=610
+      DE  iter  70 | best=0.50529176 | evals=710
+      DE  iter  80 | best=0.50528812 | evals=810
+      DE  iter  90 | best=0.50528765 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.53662956 | evals=20
+      GWO iter  10 | best=0.53093690 | evals=110
+      GWO iter  20 | best=0.52880323 | evals=210
+      GWO iter  30 | best=0.52693331 | evals=310
+      GWO iter  40 | best=0.53120250 | evals=410
+      GWO iter  50 | best=0.52652246 | evals=510
+      GWO iter  60 | best=0.52676177 | evals=610
+      GWO iter  70 | best=0.52534539 | evals=710
+      GWO iter  80 | best=0.52557403 | evals=810
+      GWO iter  90 | best=0.52519083 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.55699813 | evals=20
+      WOA iter  10 | best=0.53017634 | evals=110
+      WOA iter  20 | best=0.52911049 | evals=210
+      WOA iter  30 | best=0.52911049 | evals=310
+      WOA iter  40 | best=0.52911049 | evals=410
+      WOA iter  50 | best=0.52911049 | evals=510
+      WOA iter  60 | best=0.52911049 | evals=610
+      WOA iter  70 | best=0.52911049 | evals=710
+      WOA iter  80 | best=0.52911049 | evals=810
+      WOA iter  90 | best=0.52911049 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.54249489 | evals=20
+      FA  iter  10 | best=0.54249489 | evals=110
+      FA  iter  20 | best=0.54133821 | evals=210
+      FA  iter  30 | best=0.53979236 | evals=310
+      FA  iter  40 | best=0.53979236 | evals=410
+      FA  iter  50 | best=0.53947389 | evals=510
+      FA  iter  60 | best=0.51463908 | evals=610
+      FA  iter  70 | best=0.50655866 | evals=710
+      FA  iter  80 | best=0.50655866 | evals=810
+      FA  iter  90 | best=0.50655866 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 5/10 | train=13 test=2
+Selected 3/6: ['KSLOC', 'AdjFP', 'RAWFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.57800466 | evals=20
+      GA  iter  10 | best=0.56566715 | evals=110
+      GA  iter  20 | best=0.56566495 | evals=210
+      GA  iter  30 | best=0.56566489 | evals=310
+      GA  iter  40 | best=0.56566489 | evals=410
+      GA  iter  50 | best=0.56566489 | evals=510
+      GA  iter  60 | best=0.56566489 | evals=610
+      GA  iter  70 | best=0.56566489 | evals=710
+      GA  iter  80 | best=0.56566489 | evals=810
+      GA  iter  90 | best=0.56566489 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.56722546 | evals=20
+      PSO iter  10 | best=0.56640595 | evals=110
+      PSO iter  20 | best=0.56634104 | evals=210
+      PSO iter  30 | best=0.56633770 | evals=310
+      PSO iter  40 | best=0.56633770 | evals=410
+      PSO iter  50 | best=0.56633759 | evals=510
+      PSO iter  60 | best=0.56633759 | evals=610
+      PSO iter  70 | best=0.56633759 | evals=710
+      PSO iter  80 | best=0.56633759 | evals=810
+      PSO iter  90 | best=0.56633759 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.57737511 | evals=20
+      DE  iter  10 | best=0.56578380 | evals=110
+      DE  iter  20 | best=0.56567681 | evals=210
+      DE  iter  30 | best=0.56566751 | evals=310
+      DE  iter  40 | best=0.56566620 | evals=410
+      DE  iter  50 | best=0.56566608 | evals=510
+      DE  iter  60 | best=0.56566608 | evals=610
+      DE  iter  70 | best=0.56566608 | evals=710
+      DE  iter  80 | best=0.56566602 | evals=810
+      DE  iter  90 | best=0.56566602 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.57631570 | evals=20
+      GWO iter  10 | best=0.56717962 | evals=110
+      GWO iter  20 | best=0.56756616 | evals=210
+      GWO iter  30 | best=0.56646580 | evals=310
+      GWO iter  40 | best=0.56687015 | evals=410
+      GWO iter  50 | best=0.56657028 | evals=510
+      GWO iter  60 | best=0.56631035 | evals=610
+      GWO iter  70 | best=0.56580144 | evals=710
+      GWO iter  80 | best=0.56593239 | evals=810
+      GWO iter  90 | best=0.56602269 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.57756066 | evals=20
+      WOA iter  10 | best=0.56578344 | evals=110
+      WOA iter  20 | best=0.56570053 | evals=210
+      WOA iter  30 | best=0.56570053 | evals=310
+      WOA iter  40 | best=0.56569916 | evals=410
+      WOA iter  50 | best=0.56568664 | evals=510
+      WOA iter  60 | best=0.56568331 | evals=610
+      WOA iter  70 | best=0.56565475 | evals=710
+      WOA iter  80 | best=0.56565422 | evals=810
+      WOA iter  90 | best=0.56565273 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.57897615 | evals=20
+      FA  iter  10 | best=0.56655377 | evals=110
+      FA  iter  20 | best=0.56577581 | evals=210
+      FA  iter  30 | best=0.56577581 | evals=310
+      FA  iter  40 | best=0.56577581 | evals=410
+      FA  iter  50 | best=0.56574112 | evals=510
+      FA  iter  60 | best=0.56574112 | evals=610
+      FA  iter  70 | best=0.56574112 | evals=710
+      FA  iter  80 | best=0.56574112 | evals=810
+      FA  iter  90 | best=0.56573719 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 6/10 | train=14 test=1
+Selected 4/6: ['Language', 'KSLOC', 'AdjFP', 'RAWFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.63357812 | evals=20
+      GA  iter  10 | best=0.63185251 | evals=110
+      GA  iter  20 | best=0.60212791 | evals=210
+      GA  iter  30 | best=0.59812534 | evals=310
+      GA  iter  40 | best=0.59759265 | evals=410
+      GA  iter  50 | best=0.59759265 | evals=510
+      GA  iter  60 | best=0.59759265 | evals=610
+      GA  iter  70 | best=0.59733009 | evals=710
+      GA  iter  80 | best=0.59714335 | evals=810
+      GA  iter  90 | best=0.59713012 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.63440448 | evals=20
+      PSO iter  10 | best=0.60133284 | evals=110
+      PSO iter  20 | best=0.59561008 | evals=210
+      PSO iter  30 | best=0.59559917 | evals=310
+      PSO iter  40 | best=0.59538966 | evals=410
+      PSO iter  50 | best=0.59531611 | evals=510
+      PSO iter  60 | best=0.59527969 | evals=610
+      PSO iter  70 | best=0.59509766 | evals=710
+      PSO iter  80 | best=0.59508932 | evals=810
+      PSO iter  90 | best=0.59508389 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.61010426 | evals=20
+      DE  iter  10 | best=0.60051036 | evals=110
+      DE  iter  20 | best=0.59592462 | evals=210
+      DE  iter  30 | best=0.59580004 | evals=310
+      DE  iter  40 | best=0.59574550 | evals=410
+      DE  iter  50 | best=0.59570926 | evals=510
+      DE  iter  60 | best=0.59568596 | evals=610
+      DE  iter  70 | best=0.59567589 | evals=710
+      DE  iter  80 | best=0.59567070 | evals=810
+      DE  iter  90 | best=0.59566855 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.65798426 | evals=20
+      GWO iter  10 | best=0.60345489 | evals=110
+      GWO iter  20 | best=0.60776877 | evals=210
+      GWO iter  30 | best=0.60340726 | evals=310
+      GWO iter  40 | best=0.60727423 | evals=410
+      GWO iter  50 | best=0.59980029 | evals=510
+      GWO iter  60 | best=0.60034794 | evals=610
+      GWO iter  70 | best=0.60108835 | evals=710
+      GWO iter  80 | best=0.59794062 | evals=810
+      GWO iter  90 | best=0.59780407 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.63496244 | evals=20
+      WOA iter  10 | best=0.61020470 | evals=110
+      WOA iter  20 | best=0.59897792 | evals=210
+      WOA iter  30 | best=0.59595275 | evals=310
+      WOA iter  40 | best=0.59586775 | evals=410
+      WOA iter  50 | best=0.59551638 | evals=510
+      WOA iter  60 | best=0.59534442 | evals=610
+      WOA iter  70 | best=0.59531224 | evals=710
+      WOA iter  80 | best=0.59529084 | evals=810
+      WOA iter  90 | best=0.59528899 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.64595628 | evals=20
+      FA  iter  10 | best=0.59890056 | evals=110
+      FA  iter  20 | best=0.59850639 | evals=210
+      FA  iter  30 | best=0.59732932 | evals=310
+      FA  iter  40 | best=0.59732932 | evals=410
+      FA  iter  50 | best=0.59732932 | evals=510
+      FA  iter  60 | best=0.59732932 | evals=610
+      FA  iter  70 | best=0.59732932 | evals=710
+      FA  iter  80 | best=0.59685940 | evals=810
+      FA  iter  90 | best=0.59685940 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 7/10 | train=14 test=1
+Selected 3/6: ['KSLOC', 'AdjFP', 'RAWFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.64931476 | evals=20
+      GA  iter  10 | best=0.64824909 | evals=110
+      GA  iter  20 | best=0.64604372 | evals=210
+      GA  iter  30 | best=0.64604372 | evals=310
+      GA  iter  40 | best=0.64582533 | evals=410
+      GA  iter  50 | best=0.64582455 | evals=510
+      GA  iter  60 | best=0.60954773 | evals=610
+      GA  iter  70 | best=0.60954773 | evals=710
+      GA  iter  80 | best=0.60954773 | evals=810
+      GA  iter  90 | best=0.57027727 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.57117009 | evals=20
+      PSO iter  10 | best=0.57033074 | evals=110
+      PSO iter  20 | best=0.57033074 | evals=210
+      PSO iter  30 | best=0.57032192 | evals=310
+      PSO iter  40 | best=0.57030433 | evals=410
+      PSO iter  50 | best=0.57029849 | evals=510
+      PSO iter  60 | best=0.57029808 | evals=610
+      PSO iter  70 | best=0.57029778 | evals=710
+      PSO iter  80 | best=0.57029778 | evals=810
+      PSO iter  90 | best=0.57029772 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.64914858 | evals=20
+      DE  iter  10 | best=0.63717818 | evals=110
+      DE  iter  20 | best=0.63707530 | evals=210
+      DE  iter  30 | best=0.63707006 | evals=310
+      DE  iter  40 | best=0.63706994 | evals=410
+      DE  iter  50 | best=0.63706994 | evals=510
+      DE  iter  60 | best=0.63706994 | evals=610
+      DE  iter  70 | best=0.63706994 | evals=710
+      DE  iter  80 | best=0.63706994 | evals=810
+      DE  iter  90 | best=0.63706994 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.58527392 | evals=20
+      GWO iter  10 | best=0.58974916 | evals=110
+      GWO iter  20 | best=0.59282905 | evals=210
+      GWO iter  30 | best=0.58512467 | evals=310
+      GWO iter  40 | best=0.58811545 | evals=410
+      GWO iter  50 | best=0.58202314 | evals=510
+      GWO iter  60 | best=0.57122052 | evals=610
+      GWO iter  70 | best=0.57322788 | evals=710
+      GWO iter  80 | best=0.57163638 | evals=810
+      GWO iter  90 | best=0.57024884 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.58617723 | evals=20
+      WOA iter  10 | best=0.58466113 | evals=110
+      WOA iter  20 | best=0.57050979 | evals=210
+      WOA iter  30 | best=0.57009608 | evals=310
+      WOA iter  40 | best=0.57009608 | evals=410
+      WOA iter  50 | best=0.57009608 | evals=510
+      WOA iter  60 | best=0.57008749 | evals=610
+      WOA iter  70 | best=0.57008302 | evals=710
+      WOA iter  80 | best=0.57008117 | evals=810
+      WOA iter  90 | best=0.57007831 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.64473945 | evals=20
+      FA  iter  10 | best=0.63725960 | evals=110
+      FA  iter  20 | best=0.63716835 | evals=210
+      FA  iter  30 | best=0.63710785 | evals=310
+      FA  iter  40 | best=0.63710785 | evals=410
+      FA  iter  50 | best=0.63707471 | evals=510
+      FA  iter  60 | best=0.63707471 | evals=610
+      FA  iter  70 | best=0.63707471 | evals=710
+      FA  iter  80 | best=0.63707471 | evals=810
+      FA  iter  90 | best=0.63707471 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 8/10 | train=14 test=1
+Selected 3/6: ['KSLOC', 'AdjFP', 'RAWFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.68467581 | evals=20
+      GA  iter  10 | best=0.67713851 | evals=110
+      GA  iter  20 | best=0.67712420 | evals=210
+      GA  iter  30 | best=0.67712420 | evals=310
+      GA  iter  40 | best=0.67712420 | evals=410
+      GA  iter  50 | best=0.65928626 | evals=510
+      GA  iter  60 | best=0.65928626 | evals=610
+      GA  iter  70 | best=0.65928626 | evals=710
+      GA  iter  80 | best=0.65928626 | evals=810
+      GA  iter  90 | best=0.65928626 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.67746562 | evals=20
+      PSO iter  10 | best=0.66053456 | evals=110
+      PSO iter  20 | best=0.66042888 | evals=210
+      PSO iter  30 | best=0.66042060 | evals=310
+      PSO iter  40 | best=0.66041487 | evals=410
+      PSO iter  50 | best=0.63782585 | evals=510
+      PSO iter  60 | best=0.63782585 | evals=610
+      PSO iter  70 | best=0.63770390 | evals=710
+      PSO iter  80 | best=0.63769996 | evals=810
+      PSO iter  90 | best=0.63769782 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.63914150 | evals=20
+      DE  iter  10 | best=0.63905239 | evals=110
+      DE  iter  20 | best=0.63894981 | evals=210
+      DE  iter  30 | best=0.63892651 | evals=310
+      DE  iter  40 | best=0.63892287 | evals=410
+      DE  iter  50 | best=0.63891929 | evals=510
+      DE  iter  60 | best=0.63891906 | evals=610
+      DE  iter  70 | best=0.63618469 | evals=710
+      DE  iter  80 | best=0.63618463 | evals=810
+      DE  iter  90 | best=0.63618463 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.64502472 | evals=20
+      GWO iter  10 | best=0.66361934 | evals=110
+      GWO iter  20 | best=0.66026610 | evals=210
+      GWO iter  30 | best=0.65997583 | evals=310
+      GWO iter  40 | best=0.65978205 | evals=410
+      GWO iter  50 | best=0.65980220 | evals=510
+      GWO iter  60 | best=0.66003704 | evals=610
+      GWO iter  70 | best=0.65988803 | evals=710
+      GWO iter  80 | best=0.65979373 | evals=810
+      GWO iter  90 | best=0.65960395 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.64707690 | evals=20
+      WOA iter  10 | best=0.63910949 | evals=110
+      WOA iter  20 | best=0.63910949 | evals=210
+      WOA iter  30 | best=0.63910598 | evals=310
+      WOA iter  40 | best=0.63910323 | evals=410
+      WOA iter  50 | best=0.63910240 | evals=510
+      WOA iter  60 | best=0.63910240 | evals=610
+      WOA iter  70 | best=0.63910240 | evals=710
+      WOA iter  80 | best=0.63910240 | evals=810
+      WOA iter  90 | best=0.63909554 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.64053154 | evals=20
+      FA  iter  10 | best=0.63868934 | evals=110
+      FA  iter  20 | best=0.63770092 | evals=210
+      FA  iter  30 | best=0.63770092 | evals=310
+      FA  iter  40 | best=0.63770092 | evals=410
+      FA  iter  50 | best=0.63770092 | evals=510
+      FA  iter  60 | best=0.63770092 | evals=610
+      FA  iter  70 | best=0.63770092 | evals=710
+      FA  iter  80 | best=0.63770092 | evals=810
+      FA  iter  90 | best=0.63759696 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 9/10 | train=14 test=1
+Selected 4/6: ['Language', 'KSLOC', 'AdjFP', 'RAWFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.60848129 | evals=20
+      GA  iter  10 | best=0.57892108 | evals=110
+      GA  iter  20 | best=0.57651848 | evals=210
+      GA  iter  30 | best=0.57607502 | evals=310
+      GA  iter  40 | best=0.57525724 | evals=410
+      GA  iter  50 | best=0.57525617 | evals=510
+      GA  iter  60 | best=0.57525617 | evals=610
+      GA  iter  70 | best=0.57494813 | evals=710
+      GA  iter  80 | best=0.57391769 | evals=810
+      GA  iter  90 | best=0.57321894 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.55661887 | evals=20
+      PSO iter  10 | best=0.55533028 | evals=110
+      PSO iter  20 | best=0.55325651 | evals=210
+      PSO iter  30 | best=0.55280709 | evals=310
+      PSO iter  40 | best=0.55265999 | evals=410
+      PSO iter  50 | best=0.55264187 | evals=510
+      PSO iter  60 | best=0.55262834 | evals=610
+      PSO iter  70 | best=0.55262834 | evals=710
+      PSO iter  80 | best=0.55246371 | evals=810
+      PSO iter  90 | best=0.55240917 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.55834782 | evals=20
+      DE  iter  10 | best=0.55421817 | evals=110
+      DE  iter  20 | best=0.55345267 | evals=210
+      DE  iter  30 | best=0.55335075 | evals=310
+      DE  iter  40 | best=0.55334508 | evals=410
+      DE  iter  50 | best=0.55333686 | evals=510
+      DE  iter  60 | best=0.55333561 | evals=610
+      DE  iter  70 | best=0.55333418 | evals=710
+      DE  iter  80 | best=0.55333388 | evals=810
+      DE  iter  90 | best=0.55333340 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.57860255 | evals=20
+      GWO iter  10 | best=0.55897826 | evals=110
+      GWO iter  20 | best=0.56099695 | evals=210
+      GWO iter  30 | best=0.55521268 | evals=310
+      GWO iter  40 | best=0.55646533 | evals=410
+      GWO iter  50 | best=0.55579388 | evals=510
+      GWO iter  60 | best=0.55441868 | evals=610
+      GWO iter  70 | best=0.55458242 | evals=710
+      GWO iter  80 | best=0.55551803 | evals=810
+      GWO iter  90 | best=0.55430126 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.56960833 | evals=20
+      WOA iter  10 | best=0.55976963 | evals=110
+      WOA iter  20 | best=0.55813086 | evals=210
+      WOA iter  30 | best=0.55555123 | evals=310
+      WOA iter  40 | best=0.55446756 | evals=410
+      WOA iter  50 | best=0.55407238 | evals=510
+      WOA iter  60 | best=0.55393171 | evals=610
+      WOA iter  70 | best=0.55376750 | evals=710
+      WOA iter  80 | best=0.55372918 | evals=810
+      WOA iter  90 | best=0.55369532 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.57003945 | evals=20
+      FA  iter  10 | best=0.55773318 | evals=110
+      FA  iter  20 | best=0.55490911 | evals=210
+      FA  iter  30 | best=0.55418468 | evals=310
+      FA  iter  40 | best=0.55418468 | evals=410
+      FA  iter  50 | best=0.55415380 | evals=510
+      FA  iter  60 | best=0.55246818 | evals=610
+      FA  iter  70 | best=0.55246818 | evals=710
+      FA  iter  80 | best=0.55246818 | evals=810
+      FA  iter  90 | best=0.55246818 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 10/10 | train=14 test=1
+Selected 3/6: ['KSLOC', 'AdjFP', 'RAWFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.41324362 | evals=20
+      GA  iter  10 | best=0.41101009 | evals=110
+      GA  iter  20 | best=0.41101009 | evals=210
+      GA  iter  30 | best=0.41096839 | evals=310
+      GA  iter  40 | best=0.41096818 | evals=410
+      GA  iter  50 | best=0.41096818 | evals=510
+      GA  iter  60 | best=0.41096818 | evals=610
+      GA  iter  70 | best=0.41096818 | evals=710
+      GA  iter  80 | best=0.41096818 | evals=810
+      GA  iter  90 | best=0.41096818 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.44236606 | evals=20
+      PSO iter  10 | best=0.41186541 | evals=110
+      PSO iter  20 | best=0.41063532 | evals=210
+      PSO iter  30 | best=0.41063532 | evals=310
+      PSO iter  40 | best=0.41063532 | evals=410
+      PSO iter  50 | best=0.41063198 | evals=510
+      PSO iter  60 | best=0.41062894 | evals=610
+      PSO iter  70 | best=0.41062826 | evals=710
+      PSO iter  80 | best=0.41062820 | evals=810
+      PSO iter  90 | best=0.41062820 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.43206301 | evals=20
+      DE  iter  10 | best=0.41821048 | evals=110
+      DE  iter  20 | best=0.41145402 | evals=210
+      DE  iter  30 | best=0.41138378 | evals=310
+      DE  iter  40 | best=0.41137105 | evals=410
+      DE  iter  50 | best=0.41137102 | evals=510
+      DE  iter  60 | best=0.41137102 | evals=610
+      DE  iter  70 | best=0.41137102 | evals=710
+      DE  iter  80 | best=0.41137102 | evals=810
+      DE  iter  90 | best=0.41137102 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.42251295 | evals=20
+      GWO iter  10 | best=0.41344473 | evals=110
+      GWO iter  20 | best=0.42080462 | evals=210
+      GWO iter  30 | best=0.41401520 | evals=310
+      GWO iter  40 | best=0.41226920 | evals=410
+      GWO iter  50 | best=0.41315728 | evals=510
+      GWO iter  60 | best=0.41250172 | evals=610
+      GWO iter  70 | best=0.41177493 | evals=710
+      GWO iter  80 | best=0.41168159 | evals=810
+      GWO iter  90 | best=0.41232064 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.44279760 | evals=20
+      WOA iter  10 | best=0.41141441 | evals=110
+      WOA iter  20 | best=0.41139993 | evals=210
+      WOA iter  30 | best=0.41138610 | evals=310
+      WOA iter  40 | best=0.41137356 | evals=410
+      WOA iter  50 | best=0.41137156 | evals=510
+      WOA iter  60 | best=0.41137111 | evals=610
+      WOA iter  70 | best=0.41137111 | evals=710
+      WOA iter  80 | best=0.41063467 | evals=810
+      WOA iter  90 | best=0.41063049 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.43799034 | evals=20
+      FA  iter  10 | best=0.41104668 | evals=110
+      FA  iter  20 | best=0.41104668 | evals=210
+      FA  iter  30 | best=0.41104668 | evals=310
+      FA  iter  40 | best=0.41104668 | evals=410
+      FA  iter  50 | best=0.41064894 | evals=510
+      FA  iter  60 | best=0.41064894 | evals=610
+      FA  iter  70 | best=0.41064894 | evals=710
+      FA  iter  80 | best=0.41064894 | evals=810
+      FA  iter  90 | best=0.41064894 | evals=910
+
+FINAL RANKING
+ MMRE_Rank  Method     MMRE        MAE       RMSE
+         1  DE-ABE 0.597772 120.862890 236.022468
+         2   FAABE 0.607302 122.948873 239.114638
+         3 GWO-ABE 0.608384 121.015093 231.898230
+         4     ABE 0.613218 121.573621 237.813245
+         5 WOA-ABE 0.616412 118.750376 219.658294
+         6  GA-ABE 0.617596 124.003036 231.298344
+         7 PSO-ABE 0.625689 127.439887 238.885387
+
+FAABE VS BASELINES
+Dataset Baseline Proposed  Valid_Pairs  Baseline_MMRE  FAABE_MMRE  FAABE_MMRE_Improvement_%  Wilcoxon_Statistic  Wilcoxon_p  Cliffs_Delta Cliffs_Effect  Wilcoxon_p_Holm  Significant_Holm_0.05
+Kemerer      ABE    FAABE           15       0.613218    0.607302                  0.964786                57.0    0.890381      0.022222    Negligible              1.0                  False
+Kemerer   GA-ABE    FAABE           15       0.617596    0.607302                  1.666870                42.0    0.330261      0.066667    Negligible              1.0                  False
+Kemerer  PSO-ABE    FAABE           15       0.625689    0.607302                  2.938659                60.0    1.000000      0.048889    Negligible              1.0                  False
+Kemerer   DE-ABE    FAABE           15       0.597772    0.607302                 -1.594216                59.0    0.977966      0.040000    Negligible              1.0                  False
+Kemerer  GWO-ABE    FAABE           15       0.608384    0.607302                  0.177869                55.0    0.803955     -0.031111    Negligible              1.0                  False
+Kemerer  WOA-ABE    FAABE           15       0.616412    0.607302                  1.478004                40.0    0.276855      0.057778    Negligible              1.0                  False

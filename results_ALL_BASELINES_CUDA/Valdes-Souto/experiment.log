@@ -1,0 +1,788 @@
+====================================================================================================
+DATASET: Valdes-Souto
+====================================================================================================
+Device: cuda
+GPU: NVIDIA A100 80GB PCIe
+Loaded: Valdes-Souto.csv
+Projects: 57
+Predictors (2): ['COSMIC_FP', 'HH_CFP']
+Target: Effort
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 1/10 | train=51 test=6
+Selected 1/2: ['COSMIC_FP']
+
+Running GA-ABE...
+      GA  iter   1 | best=2.83317614 | evals=20
+      GA  iter  10 | best=2.83317614 | evals=110
+      GA  iter  20 | best=2.83317614 | evals=210
+      GA  iter  30 | best=2.83317614 | evals=310
+      GA  iter  40 | best=2.83317614 | evals=410
+      GA  iter  50 | best=2.83317614 | evals=510
+      GA  iter  60 | best=2.83317614 | evals=610
+      GA  iter  70 | best=2.83317614 | evals=710
+      GA  iter  80 | best=2.83317614 | evals=810
+      GA  iter  90 | best=2.83317614 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=2.83317614 | evals=20
+      PSO iter  10 | best=2.83317614 | evals=110
+      PSO iter  20 | best=2.83317614 | evals=210
+      PSO iter  30 | best=2.83317614 | evals=310
+      PSO iter  40 | best=2.83317614 | evals=410
+      PSO iter  50 | best=2.83317614 | evals=510
+      PSO iter  60 | best=2.83317614 | evals=610
+      PSO iter  70 | best=2.83317614 | evals=710
+      PSO iter  80 | best=2.83317614 | evals=810
+      PSO iter  90 | best=2.83317614 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=2.83317614 | evals=20
+      DE  iter  10 | best=2.83317614 | evals=110
+      DE  iter  20 | best=2.83317614 | evals=210
+      DE  iter  30 | best=2.83317614 | evals=310
+      DE  iter  40 | best=2.83317614 | evals=410
+      DE  iter  50 | best=2.83317614 | evals=510
+      DE  iter  60 | best=2.83317614 | evals=610
+      DE  iter  70 | best=2.83317614 | evals=710
+      DE  iter  80 | best=2.83317614 | evals=810
+      DE  iter  90 | best=2.83317614 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=2.83317614 | evals=20
+      GWO iter  10 | best=2.83317614 | evals=110
+      GWO iter  20 | best=2.83317614 | evals=210
+      GWO iter  30 | best=2.83317614 | evals=310
+      GWO iter  40 | best=2.83317614 | evals=410
+      GWO iter  50 | best=2.83317614 | evals=510
+      GWO iter  60 | best=2.83317614 | evals=610
+      GWO iter  70 | best=2.83317614 | evals=710
+      GWO iter  80 | best=2.83317614 | evals=810
+      GWO iter  90 | best=2.83317614 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=2.83317614 | evals=20
+      WOA iter  10 | best=2.83317614 | evals=110
+      WOA iter  20 | best=2.83317614 | evals=210
+      WOA iter  30 | best=2.83317614 | evals=310
+      WOA iter  40 | best=2.83317614 | evals=410
+      WOA iter  50 | best=2.83317614 | evals=510
+      WOA iter  60 | best=2.83317614 | evals=610
+      WOA iter  70 | best=2.83317614 | evals=710
+      WOA iter  80 | best=2.83317614 | evals=810
+      WOA iter  90 | best=2.83317614 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=2.83317614 | evals=20
+      FA  iter  10 | best=2.83317614 | evals=110
+      FA  iter  20 | best=2.83317614 | evals=210
+      FA  iter  30 | best=2.83317614 | evals=310
+      FA  iter  40 | best=2.83317614 | evals=410
+      FA  iter  50 | best=2.83317614 | evals=510
+      FA  iter  60 | best=2.83317614 | evals=610
+      FA  iter  70 | best=2.83317614 | evals=710
+      FA  iter  80 | best=2.83317614 | evals=810
+      FA  iter  90 | best=2.83317614 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 2/10 | train=51 test=6
+Selected 1/2: ['COSMIC_FP']
+
+Running GA-ABE...
+      GA  iter   1 | best=2.51311588 | evals=20
+      GA  iter  10 | best=2.51311588 | evals=110
+      GA  iter  20 | best=2.51311588 | evals=210
+      GA  iter  30 | best=2.51311588 | evals=310
+      GA  iter  40 | best=2.51311588 | evals=410
+      GA  iter  50 | best=2.51311588 | evals=510
+      GA  iter  60 | best=2.51311588 | evals=610
+      GA  iter  70 | best=2.51311588 | evals=710
+      GA  iter  80 | best=2.51311588 | evals=810
+      GA  iter  90 | best=2.51311588 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=2.51311588 | evals=20
+      PSO iter  10 | best=2.51311588 | evals=110
+      PSO iter  20 | best=2.51311588 | evals=210
+      PSO iter  30 | best=2.51311588 | evals=310
+      PSO iter  40 | best=2.51311588 | evals=410
+      PSO iter  50 | best=2.51311588 | evals=510
+      PSO iter  60 | best=2.51311588 | evals=610
+      PSO iter  70 | best=2.51311588 | evals=710
+      PSO iter  80 | best=2.51311588 | evals=810
+      PSO iter  90 | best=2.51311588 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=2.51311588 | evals=20
+      DE  iter  10 | best=2.51311588 | evals=110
+      DE  iter  20 | best=2.51311588 | evals=210
+      DE  iter  30 | best=2.51311588 | evals=310
+      DE  iter  40 | best=2.51311588 | evals=410
+      DE  iter  50 | best=2.51311588 | evals=510
+      DE  iter  60 | best=2.51311588 | evals=610
+      DE  iter  70 | best=2.51311588 | evals=710
+      DE  iter  80 | best=2.51311588 | evals=810
+      DE  iter  90 | best=2.51311588 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=2.51311588 | evals=20
+      GWO iter  10 | best=2.51311588 | evals=110
+      GWO iter  20 | best=2.51311588 | evals=210
+      GWO iter  30 | best=2.51311588 | evals=310
+      GWO iter  40 | best=2.51311588 | evals=410
+      GWO iter  50 | best=2.51311588 | evals=510
+      GWO iter  60 | best=2.51311588 | evals=610
+      GWO iter  70 | best=2.51311588 | evals=710
+      GWO iter  80 | best=2.51311588 | evals=810
+      GWO iter  90 | best=2.51311588 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=2.51311588 | evals=20
+      WOA iter  10 | best=2.51311588 | evals=110
+      WOA iter  20 | best=2.51311588 | evals=210
+      WOA iter  30 | best=2.51311588 | evals=310
+      WOA iter  40 | best=2.51311588 | evals=410
+      WOA iter  50 | best=2.51311588 | evals=510
+      WOA iter  60 | best=2.51311588 | evals=610
+      WOA iter  70 | best=2.51311588 | evals=710
+      WOA iter  80 | best=2.51311588 | evals=810
+      WOA iter  90 | best=2.51311588 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=2.51311588 | evals=20
+      FA  iter  10 | best=2.51311588 | evals=110
+      FA  iter  20 | best=2.51311588 | evals=210
+      FA  iter  30 | best=2.51311588 | evals=310
+      FA  iter  40 | best=2.51311588 | evals=410
+      FA  iter  50 | best=2.51311588 | evals=510
+      FA  iter  60 | best=2.51311588 | evals=610
+      FA  iter  70 | best=2.51311588 | evals=710
+      FA  iter  80 | best=2.51311588 | evals=810
+      FA  iter  90 | best=2.51311588 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 3/10 | train=51 test=6
+Selected 1/2: ['COSMIC_FP']
+
+Running GA-ABE...
+      GA  iter   1 | best=3.23121285 | evals=20
+      GA  iter  10 | best=3.23121285 | evals=110
+      GA  iter  20 | best=3.23121285 | evals=210
+      GA  iter  30 | best=3.23121285 | evals=310
+      GA  iter  40 | best=3.23121285 | evals=410
+      GA  iter  50 | best=3.23121285 | evals=510
+      GA  iter  60 | best=3.23121285 | evals=610
+      GA  iter  70 | best=3.23121285 | evals=710
+      GA  iter  80 | best=3.23121285 | evals=810
+      GA  iter  90 | best=3.23121285 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=3.23121285 | evals=20
+      PSO iter  10 | best=3.23121285 | evals=110
+      PSO iter  20 | best=3.23121285 | evals=210
+      PSO iter  30 | best=3.23121285 | evals=310
+      PSO iter  40 | best=3.23121285 | evals=410
+      PSO iter  50 | best=3.23121285 | evals=510
+      PSO iter  60 | best=3.23121285 | evals=610
+      PSO iter  70 | best=3.23121285 | evals=710
+      PSO iter  80 | best=3.23121285 | evals=810
+      PSO iter  90 | best=3.23121285 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=3.23121285 | evals=20
+      DE  iter  10 | best=3.23121285 | evals=110
+      DE  iter  20 | best=3.23121285 | evals=210
+      DE  iter  30 | best=3.23121285 | evals=310
+      DE  iter  40 | best=3.23121285 | evals=410
+      DE  iter  50 | best=3.23121285 | evals=510
+      DE  iter  60 | best=3.23121285 | evals=610
+      DE  iter  70 | best=3.23121285 | evals=710
+      DE  iter  80 | best=3.23121285 | evals=810
+      DE  iter  90 | best=3.23121285 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=3.23121285 | evals=20
+      GWO iter  10 | best=3.23121285 | evals=110
+      GWO iter  20 | best=3.23121285 | evals=210
+      GWO iter  30 | best=3.23121285 | evals=310
+      GWO iter  40 | best=3.23121285 | evals=410
+      GWO iter  50 | best=3.23121285 | evals=510
+      GWO iter  60 | best=3.23121285 | evals=610
+      GWO iter  70 | best=3.23121285 | evals=710
+      GWO iter  80 | best=3.23121285 | evals=810
+      GWO iter  90 | best=3.23121285 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=3.23121285 | evals=20
+      WOA iter  10 | best=3.23121285 | evals=110
+      WOA iter  20 | best=3.23121285 | evals=210
+      WOA iter  30 | best=3.23121285 | evals=310
+      WOA iter  40 | best=3.23121285 | evals=410
+      WOA iter  50 | best=3.23121285 | evals=510
+      WOA iter  60 | best=3.23121285 | evals=610
+      WOA iter  70 | best=3.23121285 | evals=710
+      WOA iter  80 | best=3.23121285 | evals=810
+      WOA iter  90 | best=3.23121285 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=3.23121285 | evals=20
+      FA  iter  10 | best=3.23121285 | evals=110
+      FA  iter  20 | best=3.23121285 | evals=210
+      FA  iter  30 | best=3.23121285 | evals=310
+      FA  iter  40 | best=3.23121285 | evals=410
+      FA  iter  50 | best=3.23121285 | evals=510
+      FA  iter  60 | best=3.23121285 | evals=610
+      FA  iter  70 | best=3.23121285 | evals=710
+      FA  iter  80 | best=3.23121285 | evals=810
+      FA  iter  90 | best=3.23121285 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 4/10 | train=51 test=6
+Selected 1/2: ['COSMIC_FP']
+
+Running GA-ABE...
+      GA  iter   1 | best=3.23650217 | evals=20
+      GA  iter  10 | best=3.23650217 | evals=110
+      GA  iter  20 | best=3.23650217 | evals=210
+      GA  iter  30 | best=3.23650217 | evals=310
+      GA  iter  40 | best=3.23650217 | evals=410
+      GA  iter  50 | best=3.23650217 | evals=510
+      GA  iter  60 | best=3.23650217 | evals=610
+      GA  iter  70 | best=3.23650217 | evals=710
+      GA  iter  80 | best=3.23650217 | evals=810
+      GA  iter  90 | best=3.23650217 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=3.23650217 | evals=20
+      PSO iter  10 | best=3.23650217 | evals=110
+      PSO iter  20 | best=3.23650217 | evals=210
+      PSO iter  30 | best=3.23650217 | evals=310
+      PSO iter  40 | best=3.23650217 | evals=410
+      PSO iter  50 | best=3.23650217 | evals=510
+      PSO iter  60 | best=3.23650217 | evals=610
+      PSO iter  70 | best=3.23650217 | evals=710
+      PSO iter  80 | best=3.23650217 | evals=810
+      PSO iter  90 | best=3.23650217 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=3.23650217 | evals=20
+      DE  iter  10 | best=3.23650217 | evals=110
+      DE  iter  20 | best=3.23650217 | evals=210
+      DE  iter  30 | best=3.23650217 | evals=310
+      DE  iter  40 | best=3.23650217 | evals=410
+      DE  iter  50 | best=3.23650217 | evals=510
+      DE  iter  60 | best=3.23650217 | evals=610
+      DE  iter  70 | best=3.23650217 | evals=710
+      DE  iter  80 | best=3.23650217 | evals=810
+      DE  iter  90 | best=3.23650217 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=3.23650217 | evals=20
+      GWO iter  10 | best=3.23650217 | evals=110
+      GWO iter  20 | best=3.23650217 | evals=210
+      GWO iter  30 | best=3.23650217 | evals=310
+      GWO iter  40 | best=3.23650217 | evals=410
+      GWO iter  50 | best=3.23650217 | evals=510
+      GWO iter  60 | best=3.23650217 | evals=610
+      GWO iter  70 | best=3.23650217 | evals=710
+      GWO iter  80 | best=3.23650217 | evals=810
+      GWO iter  90 | best=3.23650217 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=3.23650217 | evals=20
+      WOA iter  10 | best=3.23650217 | evals=110
+      WOA iter  20 | best=3.23650217 | evals=210
+      WOA iter  30 | best=3.23650217 | evals=310
+      WOA iter  40 | best=3.23650217 | evals=410
+      WOA iter  50 | best=3.23650217 | evals=510
+      WOA iter  60 | best=3.23650217 | evals=610
+      WOA iter  70 | best=3.23650217 | evals=710
+      WOA iter  80 | best=3.23650217 | evals=810
+      WOA iter  90 | best=3.23650217 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=3.23650217 | evals=20
+      FA  iter  10 | best=3.23650217 | evals=110
+      FA  iter  20 | best=3.23650217 | evals=210
+      FA  iter  30 | best=3.23650217 | evals=310
+      FA  iter  40 | best=3.23650217 | evals=410
+      FA  iter  50 | best=3.23650217 | evals=510
+      FA  iter  60 | best=3.23650217 | evals=610
+      FA  iter  70 | best=3.23650217 | evals=710
+      FA  iter  80 | best=3.23650217 | evals=810
+      FA  iter  90 | best=3.23650217 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 5/10 | train=51 test=6
+Selected 1/2: ['COSMIC_FP']
+
+Running GA-ABE...
+      GA  iter   1 | best=3.29055977 | evals=20
+      GA  iter  10 | best=3.29055977 | evals=110
+      GA  iter  20 | best=3.29055977 | evals=210
+      GA  iter  30 | best=3.29055977 | evals=310
+      GA  iter  40 | best=3.29055977 | evals=410
+      GA  iter  50 | best=3.29055977 | evals=510
+      GA  iter  60 | best=3.29055977 | evals=610
+      GA  iter  70 | best=3.29055977 | evals=710
+      GA  iter  80 | best=3.29055977 | evals=810
+      GA  iter  90 | best=3.29055977 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=3.29055977 | evals=20
+      PSO iter  10 | best=3.29055977 | evals=110
+      PSO iter  20 | best=3.29055977 | evals=210
+      PSO iter  30 | best=3.29055977 | evals=310
+      PSO iter  40 | best=3.29055977 | evals=410
+      PSO iter  50 | best=3.29055977 | evals=510
+      PSO iter  60 | best=3.29055977 | evals=610
+      PSO iter  70 | best=3.29055977 | evals=710
+      PSO iter  80 | best=3.29055977 | evals=810
+      PSO iter  90 | best=3.29055977 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=3.29055977 | evals=20
+      DE  iter  10 | best=3.29055977 | evals=110
+      DE  iter  20 | best=3.29055977 | evals=210
+      DE  iter  30 | best=3.29055977 | evals=310
+      DE  iter  40 | best=3.29055977 | evals=410
+      DE  iter  50 | best=3.29055977 | evals=510
+      DE  iter  60 | best=3.29055977 | evals=610
+      DE  iter  70 | best=3.29055977 | evals=710
+      DE  iter  80 | best=3.29055977 | evals=810
+      DE  iter  90 | best=3.29055977 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=3.29055977 | evals=20
+      GWO iter  10 | best=3.29055977 | evals=110
+      GWO iter  20 | best=3.29055977 | evals=210
+      GWO iter  30 | best=3.29055977 | evals=310
+      GWO iter  40 | best=3.29055977 | evals=410
+      GWO iter  50 | best=3.29055977 | evals=510
+      GWO iter  60 | best=3.29055977 | evals=610
+      GWO iter  70 | best=3.29055977 | evals=710
+      GWO iter  80 | best=3.29055977 | evals=810
+      GWO iter  90 | best=3.29055977 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=3.29055977 | evals=20
+      WOA iter  10 | best=3.29055977 | evals=110
+      WOA iter  20 | best=3.29055977 | evals=210
+      WOA iter  30 | best=3.29055977 | evals=310
+      WOA iter  40 | best=3.29055977 | evals=410
+      WOA iter  50 | best=3.29055977 | evals=510
+      WOA iter  60 | best=3.29055977 | evals=610
+      WOA iter  70 | best=3.29055977 | evals=710
+      WOA iter  80 | best=3.29055977 | evals=810
+      WOA iter  90 | best=3.29055977 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=3.29055977 | evals=20
+      FA  iter  10 | best=3.29055977 | evals=110
+      FA  iter  20 | best=3.29055977 | evals=210
+      FA  iter  30 | best=3.29055977 | evals=310
+      FA  iter  40 | best=3.29055977 | evals=410
+      FA  iter  50 | best=3.29055977 | evals=510
+      FA  iter  60 | best=3.29055977 | evals=610
+      FA  iter  70 | best=3.29055977 | evals=710
+      FA  iter  80 | best=3.29055977 | evals=810
+      FA  iter  90 | best=3.29055977 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 6/10 | train=51 test=6
+Selected 1/2: ['COSMIC_FP']
+
+Running GA-ABE...
+      GA  iter   1 | best=3.27767229 | evals=20
+      GA  iter  10 | best=3.27767229 | evals=110
+      GA  iter  20 | best=3.27767229 | evals=210
+      GA  iter  30 | best=3.27767229 | evals=310
+      GA  iter  40 | best=3.27767229 | evals=410
+      GA  iter  50 | best=3.27767229 | evals=510
+      GA  iter  60 | best=3.27767229 | evals=610
+      GA  iter  70 | best=3.27767229 | evals=710
+      GA  iter  80 | best=3.27767229 | evals=810
+      GA  iter  90 | best=3.27767229 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=3.27767229 | evals=20
+      PSO iter  10 | best=3.27767229 | evals=110
+      PSO iter  20 | best=3.27767229 | evals=210
+      PSO iter  30 | best=3.27767229 | evals=310
+      PSO iter  40 | best=3.27767229 | evals=410
+      PSO iter  50 | best=3.27767229 | evals=510
+      PSO iter  60 | best=3.27767229 | evals=610
+      PSO iter  70 | best=3.27767229 | evals=710
+      PSO iter  80 | best=3.27767229 | evals=810
+      PSO iter  90 | best=3.27767229 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=3.27767229 | evals=20
+      DE  iter  10 | best=3.27767229 | evals=110
+      DE  iter  20 | best=3.27767229 | evals=210
+      DE  iter  30 | best=3.27767229 | evals=310
+      DE  iter  40 | best=3.27767229 | evals=410
+      DE  iter  50 | best=3.27767229 | evals=510
+      DE  iter  60 | best=3.27767229 | evals=610
+      DE  iter  70 | best=3.27767229 | evals=710
+      DE  iter  80 | best=3.27767229 | evals=810
+      DE  iter  90 | best=3.27767229 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=3.27767229 | evals=20
+      GWO iter  10 | best=3.27767229 | evals=110
+      GWO iter  20 | best=3.27767229 | evals=210
+      GWO iter  30 | best=3.27767229 | evals=310
+      GWO iter  40 | best=3.27767229 | evals=410
+      GWO iter  50 | best=3.27767229 | evals=510
+      GWO iter  60 | best=3.27767229 | evals=610
+      GWO iter  70 | best=3.27767229 | evals=710
+      GWO iter  80 | best=3.27767229 | evals=810
+      GWO iter  90 | best=3.27767229 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=3.27767229 | evals=20
+      WOA iter  10 | best=3.27767229 | evals=110
+      WOA iter  20 | best=3.27767229 | evals=210
+      WOA iter  30 | best=3.27767229 | evals=310
+      WOA iter  40 | best=3.27767229 | evals=410
+      WOA iter  50 | best=3.27767229 | evals=510
+      WOA iter  60 | best=3.27767229 | evals=610
+      WOA iter  70 | best=3.27767229 | evals=710
+      WOA iter  80 | best=3.27767229 | evals=810
+      WOA iter  90 | best=3.27767229 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=3.27767229 | evals=20
+      FA  iter  10 | best=3.27767229 | evals=110
+      FA  iter  20 | best=3.27767229 | evals=210
+      FA  iter  30 | best=3.27767229 | evals=310
+      FA  iter  40 | best=3.27767229 | evals=410
+      FA  iter  50 | best=3.27767229 | evals=510
+      FA  iter  60 | best=3.27767229 | evals=610
+      FA  iter  70 | best=3.27767229 | evals=710
+      FA  iter  80 | best=3.27767229 | evals=810
+      FA  iter  90 | best=3.27767229 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 7/10 | train=51 test=6
+Selected 2/2: ['COSMIC_FP', 'HH_CFP']
+
+Running GA-ABE...
+      GA  iter   1 | best=0.49708727 | evals=20
+      GA  iter  10 | best=0.48090032 | evals=110
+      GA  iter  20 | best=0.48090032 | evals=210
+      GA  iter  30 | best=0.48090029 | evals=310
+      GA  iter  40 | best=0.48090029 | evals=410
+      GA  iter  50 | best=0.48090029 | evals=510
+      GA  iter  60 | best=0.48090029 | evals=610
+      GA  iter  70 | best=0.48090029 | evals=710
+      GA  iter  80 | best=0.48090029 | evals=810
+      GA  iter  90 | best=0.48090029 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=0.48177814 | evals=20
+      PSO iter  10 | best=0.48093355 | evals=110
+      PSO iter  20 | best=0.48093355 | evals=210
+      PSO iter  30 | best=0.48090500 | evals=310
+      PSO iter  40 | best=0.48087141 | evals=410
+      PSO iter  50 | best=0.48087078 | evals=510
+      PSO iter  60 | best=0.48087078 | evals=610
+      PSO iter  70 | best=0.48087069 | evals=710
+      PSO iter  80 | best=0.48087060 | evals=810
+      PSO iter  90 | best=0.48087054 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=0.48293436 | evals=20
+      DE  iter  10 | best=0.48097089 | evals=110
+      DE  iter  20 | best=0.48087081 | evals=210
+      DE  iter  30 | best=0.48087057 | evals=310
+      DE  iter  40 | best=0.48087054 | evals=410
+      DE  iter  50 | best=0.48087054 | evals=510
+      DE  iter  60 | best=0.48087054 | evals=610
+      DE  iter  70 | best=0.48087054 | evals=710
+      DE  iter  80 | best=0.48087054 | evals=810
+      DE  iter  90 | best=0.48087054 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=0.51828653 | evals=20
+      GWO iter  10 | best=0.49722078 | evals=110
+      GWO iter  20 | best=0.48141697 | evals=210
+      GWO iter  30 | best=0.48163921 | evals=310
+      GWO iter  40 | best=0.48260531 | evals=410
+      GWO iter  50 | best=0.48096046 | evals=510
+      GWO iter  60 | best=0.49695957 | evals=610
+      GWO iter  70 | best=0.48176974 | evals=710
+      GWO iter  80 | best=0.48103559 | evals=810
+      GWO iter  90 | best=0.48253953 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=0.48248279 | evals=20
+      WOA iter  10 | best=0.48097864 | evals=110
+      WOA iter  20 | best=0.48092660 | evals=210
+      WOA iter  30 | best=0.48090479 | evals=310
+      WOA iter  40 | best=0.48087743 | evals=410
+      WOA iter  50 | best=0.48087138 | evals=510
+      WOA iter  60 | best=0.48087102 | evals=610
+      WOA iter  70 | best=0.48087060 | evals=710
+      WOA iter  80 | best=0.48087060 | evals=810
+      WOA iter  90 | best=0.48087060 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=0.49643418 | evals=20
+      FA  iter  10 | best=0.48135307 | evals=110
+      FA  iter  20 | best=0.48088658 | evals=210
+      FA  iter  30 | best=0.48088658 | evals=310
+      FA  iter  40 | best=0.48088658 | evals=410
+      FA  iter  50 | best=0.48088658 | evals=510
+      FA  iter  60 | best=0.48088658 | evals=610
+      FA  iter  70 | best=0.48088658 | evals=710
+      FA  iter  80 | best=0.48088658 | evals=810
+      FA  iter  90 | best=0.48088658 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 8/10 | train=52 test=5
+Selected 1/2: ['COSMIC_FP']
+
+Running GA-ABE...
+      GA  iter   1 | best=3.31321740 | evals=20
+      GA  iter  10 | best=3.31321740 | evals=110
+      GA  iter  20 | best=3.31321740 | evals=210
+      GA  iter  30 | best=3.31321740 | evals=310
+      GA  iter  40 | best=3.31321740 | evals=410
+      GA  iter  50 | best=3.31321740 | evals=510
+      GA  iter  60 | best=3.31321740 | evals=610
+      GA  iter  70 | best=3.31321740 | evals=710
+      GA  iter  80 | best=3.31321740 | evals=810
+      GA  iter  90 | best=3.31321740 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=3.31321740 | evals=20
+      PSO iter  10 | best=3.31321740 | evals=110
+      PSO iter  20 | best=3.31321740 | evals=210
+      PSO iter  30 | best=3.31321740 | evals=310
+      PSO iter  40 | best=3.31321740 | evals=410
+      PSO iter  50 | best=3.31321740 | evals=510
+      PSO iter  60 | best=3.31321740 | evals=610
+      PSO iter  70 | best=3.31321740 | evals=710
+      PSO iter  80 | best=3.31321740 | evals=810
+      PSO iter  90 | best=3.31321740 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=3.31321740 | evals=20
+      DE  iter  10 | best=3.31321740 | evals=110
+      DE  iter  20 | best=3.31321740 | evals=210
+      DE  iter  30 | best=3.31321740 | evals=310
+      DE  iter  40 | best=3.31321740 | evals=410
+      DE  iter  50 | best=3.31321740 | evals=510
+      DE  iter  60 | best=3.31321740 | evals=610
+      DE  iter  70 | best=3.31321740 | evals=710
+      DE  iter  80 | best=3.31321740 | evals=810
+      DE  iter  90 | best=3.31321740 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=3.31321740 | evals=20
+      GWO iter  10 | best=3.31321740 | evals=110
+      GWO iter  20 | best=3.31321740 | evals=210
+      GWO iter  30 | best=3.31321740 | evals=310
+      GWO iter  40 | best=3.31321740 | evals=410
+      GWO iter  50 | best=3.31321740 | evals=510
+      GWO iter  60 | best=3.31321740 | evals=610
+      GWO iter  70 | best=3.31321740 | evals=710
+      GWO iter  80 | best=3.31321740 | evals=810
+      GWO iter  90 | best=3.31321740 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=3.31321740 | evals=20
+      WOA iter  10 | best=3.31321740 | evals=110
+      WOA iter  20 | best=3.31321740 | evals=210
+      WOA iter  30 | best=3.31321740 | evals=310
+      WOA iter  40 | best=3.31321740 | evals=410
+      WOA iter  50 | best=3.31321740 | evals=510
+      WOA iter  60 | best=3.31321740 | evals=610
+      WOA iter  70 | best=3.31321740 | evals=710
+      WOA iter  80 | best=3.31321740 | evals=810
+      WOA iter  90 | best=3.31321740 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=3.31321740 | evals=20
+      FA  iter  10 | best=3.31321740 | evals=110
+      FA  iter  20 | best=3.31321740 | evals=210
+      FA  iter  30 | best=3.31321740 | evals=310
+      FA  iter  40 | best=3.31321740 | evals=410
+      FA  iter  50 | best=3.31321740 | evals=510
+      FA  iter  60 | best=3.31321740 | evals=610
+      FA  iter  70 | best=3.31321740 | evals=710
+      FA  iter  80 | best=3.31321740 | evals=810
+      FA  iter  90 | best=3.31321740 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 9/10 | train=52 test=5
+Selected 1/2: ['COSMIC_FP']
+
+Running GA-ABE...
+      GA  iter   1 | best=2.13827085 | evals=20
+      GA  iter  10 | best=2.13827085 | evals=110
+      GA  iter  20 | best=2.13827085 | evals=210
+      GA  iter  30 | best=2.13827085 | evals=310
+      GA  iter  40 | best=2.13827085 | evals=410
+      GA  iter  50 | best=2.13827085 | evals=510
+      GA  iter  60 | best=2.13827085 | evals=610
+      GA  iter  70 | best=2.13827085 | evals=710
+      GA  iter  80 | best=2.13827085 | evals=810
+      GA  iter  90 | best=2.13827085 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=2.13827085 | evals=20
+      PSO iter  10 | best=2.13827085 | evals=110
+      PSO iter  20 | best=2.13827085 | evals=210
+      PSO iter  30 | best=2.13827085 | evals=310
+      PSO iter  40 | best=2.13827085 | evals=410
+      PSO iter  50 | best=2.13827085 | evals=510
+      PSO iter  60 | best=2.13827085 | evals=610
+      PSO iter  70 | best=2.13827085 | evals=710
+      PSO iter  80 | best=2.13827085 | evals=810
+      PSO iter  90 | best=2.13827085 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=2.13827085 | evals=20
+      DE  iter  10 | best=2.13827085 | evals=110
+      DE  iter  20 | best=2.13827085 | evals=210
+      DE  iter  30 | best=2.13827085 | evals=310
+      DE  iter  40 | best=2.13827085 | evals=410
+      DE  iter  50 | best=2.13827085 | evals=510
+      DE  iter  60 | best=2.13827085 | evals=610
+      DE  iter  70 | best=2.13827085 | evals=710
+      DE  iter  80 | best=2.13827085 | evals=810
+      DE  iter  90 | best=2.13827085 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=2.13827085 | evals=20
+      GWO iter  10 | best=2.13827085 | evals=110
+      GWO iter  20 | best=2.13827085 | evals=210
+      GWO iter  30 | best=2.13827085 | evals=310
+      GWO iter  40 | best=2.13827085 | evals=410
+      GWO iter  50 | best=2.13827085 | evals=510
+      GWO iter  60 | best=2.13827085 | evals=610
+      GWO iter  70 | best=2.13827085 | evals=710
+      GWO iter  80 | best=2.13827085 | evals=810
+      GWO iter  90 | best=2.13827085 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=2.13827085 | evals=20
+      WOA iter  10 | best=2.13827085 | evals=110
+      WOA iter  20 | best=2.13827085 | evals=210
+      WOA iter  30 | best=2.13827085 | evals=310
+      WOA iter  40 | best=2.13827085 | evals=410
+      WOA iter  50 | best=2.13827085 | evals=510
+      WOA iter  60 | best=2.13827085 | evals=610
+      WOA iter  70 | best=2.13827085 | evals=710
+      WOA iter  80 | best=2.13827085 | evals=810
+      WOA iter  90 | best=2.13827085 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=2.13827085 | evals=20
+      FA  iter  10 | best=2.13827085 | evals=110
+      FA  iter  20 | best=2.13827085 | evals=210
+      FA  iter  30 | best=2.13827085 | evals=310
+      FA  iter  40 | best=2.13827085 | evals=410
+      FA  iter  50 | best=2.13827085 | evals=510
+      FA  iter  60 | best=2.13827085 | evals=610
+      FA  iter  70 | best=2.13827085 | evals=710
+      FA  iter  80 | best=2.13827085 | evals=810
+      FA  iter  90 | best=2.13827085 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 10/10 | train=52 test=5
+Selected 1/2: ['COSMIC_FP']
+
+Running GA-ABE...
+      GA  iter   1 | best=3.06826329 | evals=20
+      GA  iter  10 | best=3.06826329 | evals=110
+      GA  iter  20 | best=3.06826329 | evals=210
+      GA  iter  30 | best=3.06826329 | evals=310
+      GA  iter  40 | best=3.06826329 | evals=410
+      GA  iter  50 | best=3.06826329 | evals=510
+      GA  iter  60 | best=3.06826329 | evals=610
+      GA  iter  70 | best=3.06826329 | evals=710
+      GA  iter  80 | best=3.06826329 | evals=810
+      GA  iter  90 | best=3.06826329 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=3.06826329 | evals=20
+      PSO iter  10 | best=3.06826329 | evals=110
+      PSO iter  20 | best=3.06826329 | evals=210
+      PSO iter  30 | best=3.06826329 | evals=310
+      PSO iter  40 | best=3.06826329 | evals=410
+      PSO iter  50 | best=3.06826329 | evals=510
+      PSO iter  60 | best=3.06826329 | evals=610
+      PSO iter  70 | best=3.06826329 | evals=710
+      PSO iter  80 | best=3.06826329 | evals=810
+      PSO iter  90 | best=3.06826329 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=3.06826329 | evals=20
+      DE  iter  10 | best=3.06826329 | evals=110
+      DE  iter  20 | best=3.06826329 | evals=210
+      DE  iter  30 | best=3.06826329 | evals=310
+      DE  iter  40 | best=3.06826329 | evals=410
+      DE  iter  50 | best=3.06826329 | evals=510
+      DE  iter  60 | best=3.06826329 | evals=610
+      DE  iter  70 | best=3.06826329 | evals=710
+      DE  iter  80 | best=3.06826329 | evals=810
+      DE  iter  90 | best=3.06826329 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=3.06826329 | evals=20
+      GWO iter  10 | best=3.06826329 | evals=110
+      GWO iter  20 | best=3.06826329 | evals=210
+      GWO iter  30 | best=3.06826329 | evals=310
+      GWO iter  40 | best=3.06826329 | evals=410
+      GWO iter  50 | best=3.06826329 | evals=510
+      GWO iter  60 | best=3.06826329 | evals=610
+      GWO iter  70 | best=3.06826329 | evals=710
+      GWO iter  80 | best=3.06826329 | evals=810
+      GWO iter  90 | best=3.06826329 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=3.06826329 | evals=20
+      WOA iter  10 | best=3.06826329 | evals=110
+      WOA iter  20 | best=3.06826329 | evals=210
+      WOA iter  30 | best=3.06826329 | evals=310
+      WOA iter  40 | best=3.06826329 | evals=410
+      WOA iter  50 | best=3.06826329 | evals=510
+      WOA iter  60 | best=3.06826329 | evals=610
+      WOA iter  70 | best=3.06826329 | evals=710
+      WOA iter  80 | best=3.06826329 | evals=810
+      WOA iter  90 | best=3.06826329 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=3.06826329 | evals=20
+      FA  iter  10 | best=3.06826329 | evals=110
+      FA  iter  20 | best=3.06826329 | evals=210
+      FA  iter  30 | best=3.06826329 | evals=310
+      FA  iter  40 | best=3.06826329 | evals=410
+      FA  iter  50 | best=3.06826329 | evals=510
+      FA  iter  60 | best=3.06826329 | evals=610
+      FA  iter  70 | best=3.06826329 | evals=710
+      FA  iter  80 | best=3.06826329 | evals=810
+      FA  iter  90 | best=3.06826329 | evals=910
+
+FINAL RANKING
+ MMRE_Rank  Method     MMRE         MAE        RMSE
+         1     ABE 2.999353 2426.602099 5672.076991
+         2 GWO-ABE 3.000100 2439.339869 5740.610824
+         3  GA-ABE 3.000102 2439.389313 5740.824082
+         4   FAABE 3.000102 2439.399892 5740.869872
+         5 PSO-ABE 3.000103 2439.412218 5740.923055
+         6  DE-ABE 3.000103 2439.412218 5740.923055
+         7 WOA-ABE 3.000103 2439.412214 5740.923033
+
+FAABE VS BASELINES
+     Dataset Baseline Proposed  Valid_Pairs  Baseline_MMRE  FAABE_MMRE  FAABE_MMRE_Improvement_%  Wilcoxon_Statistic  Wilcoxon_p  Cliffs_Delta Cliffs_Effect  Wilcoxon_p_Holm  Significant_Holm_0.05
+Valdes-Souto      ABE    FAABE           57       2.999353    3.000102                 -0.024979                 6.0    0.345448      0.004309    Negligible              1.0                  False
+Valdes-Souto   GA-ABE    FAABE           57       3.000102    3.000102                 -0.000013                 6.0    0.345448      0.001231    Negligible              1.0                  False
+Valdes-Souto  PSO-ABE    FAABE           57       3.000103    3.000102                  0.000015                 6.0    0.345448     -0.001231    Negligible              1.0                  False
+Valdes-Souto   DE-ABE    FAABE           57       3.000103    3.000102                  0.000015                 6.0    0.345448     -0.001231    Negligible              1.0                  False
+Valdes-Souto  GWO-ABE    FAABE           57       3.000100    3.000102                 -0.000077                 6.0    0.345448      0.001231    Negligible              1.0                  False
+Valdes-Souto  WOA-ABE    FAABE           57       3.000103    3.000102                  0.000016                 6.0    0.345448     -0.001231    Negligible              1.0                  False

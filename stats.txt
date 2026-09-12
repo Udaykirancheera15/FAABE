@@ -1,0 +1,63 @@
+--- Statistics for cocomo81.csv ---
+Projects: 64.00
+Features: 16.00
+Min: 5.90
+Max: 11,400.00
+Mean: 683.32
+Median: 102.00
+
+--- Statistics for desharnais.csv ---
+Projects: 81.00
+Features: 12.00
+Min: 546.00
+Max: 23,940.00
+Mean: 5,046.31
+Median: 3,647.00
+
+--- Statistics for china.csv ---
+Projects: 499.00
+Features: 14.00
+Min: 26.00
+Max: 54,620.00
+Mean: 3,921.05
+Median: 1,829.00
+
+--- Statistics for albrecht.csv ---
+Projects: 24.00
+Features: 8.00
+Min: 0.50
+Max: 105.20
+Mean: 21.88
+Median: 11.45
+
+--- Statistics for kemerer.csv ---
+Projects: 15.00
+Features: 6.00
+Min: 23.20
+Max: 1,107.31
+Mean: 219.25
+Median: 130.30
+
+--- Statistics for maxwell.csv ---
+Projects: 62.00
+Features: 27.00
+Min: 583.00
+Max: 63,694.00
+Mean: 8,223.21
+Median: 5,189.50
+
+--- Statistics for Subbiah.csv ---
+Projects: 72.00
+Features: 11.00
+Min: 217.00
+Max: 43,609.00
+Mean: 9,743.03
+Median: 7,571.00
+
+--- Statistics for Valdes-Souto.csv ---
+Projects: 57.00
+Features: 5.00
+Min: 0.21
+Max: 140.69
+Mean: 14.43
+Median: 10.17

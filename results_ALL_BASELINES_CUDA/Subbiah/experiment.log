@@ -1,0 +1,788 @@
+====================================================================================================
+DATASET: Subbiah
+====================================================================================================
+Device: cuda
+GPU: NVIDIA A100 80GB PCIe
+Loaded: Subbiah.csv
+Projects: 72
+Predictors (6): ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'InternalLogicalFiles', 'ExternalOutputs']
+Target: TotalLaborCost
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 1/10 | train=64 test=8
+Selected 6/6: ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'InternalLogicalFiles', 'ExternalOutputs']
+
+Running GA-ABE...
+      GA  iter   1 | best=1.60905361 | evals=20
+      GA  iter  10 | best=1.52478981 | evals=110
+      GA  iter  20 | best=1.48982203 | evals=210
+      GA  iter  30 | best=1.45446801 | evals=310
+      GA  iter  40 | best=1.44987392 | evals=410
+      GA  iter  50 | best=1.44987392 | evals=510
+      GA  iter  60 | best=1.44984913 | evals=610
+      GA  iter  70 | best=1.44984889 | evals=710
+      GA  iter  80 | best=1.44984877 | evals=810
+      GA  iter  90 | best=1.44984877 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=1.62729561 | evals=20
+      PSO iter  10 | best=1.49305630 | evals=110
+      PSO iter  20 | best=1.46533144 | evals=210
+      PSO iter  30 | best=1.44356871 | evals=310
+      PSO iter  40 | best=1.44296253 | evals=410
+      PSO iter  50 | best=1.43008828 | evals=510
+      PSO iter  60 | best=1.41071200 | evals=610
+      PSO iter  70 | best=1.41071200 | evals=710
+      PSO iter  80 | best=1.41052985 | evals=810
+      PSO iter  90 | best=1.41036952 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=1.62364161 | evals=20
+      DE  iter  10 | best=1.47076368 | evals=110
+      DE  iter  20 | best=1.46471441 | evals=210
+      DE  iter  30 | best=1.46022618 | evals=310
+      DE  iter  40 | best=1.45695841 | evals=410
+      DE  iter  50 | best=1.45682001 | evals=510
+      DE  iter  60 | best=1.45665729 | evals=610
+      DE  iter  70 | best=1.45660186 | evals=710
+      DE  iter  80 | best=1.45654964 | evals=810
+      DE  iter  90 | best=1.45653009 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=1.58408248 | evals=20
+      GWO iter  10 | best=1.42265284 | evals=110
+      GWO iter  20 | best=1.26774085 | evals=210
+      GWO iter  30 | best=1.23526025 | evals=310
+      GWO iter  40 | best=1.23403752 | evals=410
+      GWO iter  50 | best=1.22865045 | evals=510
+      GWO iter  60 | best=1.22493482 | evals=610
+      GWO iter  70 | best=1.22240794 | evals=710
+      GWO iter  80 | best=1.22342515 | evals=810
+      GWO iter  90 | best=1.20486462 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=1.57896316 | evals=20
+      WOA iter  10 | best=1.47587490 | evals=110
+      WOA iter  20 | best=1.31682467 | evals=210
+      WOA iter  30 | best=1.29069757 | evals=310
+      WOA iter  40 | best=1.29069424 | evals=410
+      WOA iter  50 | best=1.29067457 | evals=510
+      WOA iter  60 | best=1.29061389 | evals=610
+      WOA iter  70 | best=1.29061341 | evals=710
+      WOA iter  80 | best=1.29061341 | evals=810
+      WOA iter  90 | best=1.29061186 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=1.65554821 | evals=20
+      FA  iter  10 | best=1.45701635 | evals=110
+      FA  iter  20 | best=1.45701635 | evals=210
+      FA  iter  30 | best=1.45701635 | evals=310
+      FA  iter  40 | best=1.45701635 | evals=410
+      FA  iter  50 | best=1.45701635 | evals=510
+      FA  iter  60 | best=1.45701635 | evals=610
+      FA  iter  70 | best=1.45701635 | evals=710
+      FA  iter  80 | best=1.41643977 | evals=810
+      FA  iter  90 | best=1.26810408 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 2/10 | train=64 test=8
+Selected 6/6: ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'InternalLogicalFiles', 'ExternalOutputs']
+
+Running GA-ABE...
+      GA  iter   1 | best=2.02874446 | evals=20
+      GA  iter  10 | best=1.84103358 | evals=110
+      GA  iter  20 | best=1.81697917 | evals=210
+      GA  iter  30 | best=1.81662798 | evals=310
+      GA  iter  40 | best=1.79481542 | evals=410
+      GA  iter  50 | best=1.78747916 | evals=510
+      GA  iter  60 | best=1.77681696 | evals=610
+      GA  iter  70 | best=1.77544367 | evals=710
+      GA  iter  80 | best=1.77544367 | evals=810
+      GA  iter  90 | best=1.77538598 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=1.83104420 | evals=20
+      PSO iter  10 | best=1.68293178 | evals=110
+      PSO iter  20 | best=1.67603898 | evals=210
+      PSO iter  30 | best=1.67581189 | evals=310
+      PSO iter  40 | best=1.67485285 | evals=410
+      PSO iter  50 | best=1.67380404 | evals=510
+      PSO iter  60 | best=1.67375529 | evals=610
+      PSO iter  70 | best=1.67370212 | evals=710
+      PSO iter  80 | best=1.67353415 | evals=810
+      PSO iter  90 | best=1.67349803 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=2.11923194 | evals=20
+      DE  iter  10 | best=1.73792851 | evals=110
+      DE  iter  20 | best=1.56418729 | evals=210
+      DE  iter  30 | best=1.53958797 | evals=310
+      DE  iter  40 | best=1.53149581 | evals=410
+      DE  iter  50 | best=1.52778387 | evals=510
+      DE  iter  60 | best=1.52752233 | evals=610
+      DE  iter  70 | best=1.52740252 | evals=710
+      DE  iter  80 | best=1.52736640 | evals=810
+      DE  iter  90 | best=1.52736044 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=2.13734579 | evals=20
+      GWO iter  10 | best=1.80979872 | evals=110
+      GWO iter  20 | best=1.24350333 | evals=210
+      GWO iter  30 | best=1.21962762 | evals=310
+      GWO iter  40 | best=1.23952329 | evals=410
+      GWO iter  50 | best=1.22268283 | evals=510
+      GWO iter  60 | best=1.23928177 | evals=610
+      GWO iter  70 | best=1.23209000 | evals=710
+      GWO iter  80 | best=1.21998823 | evals=810
+      GWO iter  90 | best=1.21892619 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=1.92417860 | evals=20
+      WOA iter  10 | best=1.82915103 | evals=110
+      WOA iter  20 | best=1.81718659 | evals=210
+      WOA iter  30 | best=1.81240892 | evals=310
+      WOA iter  40 | best=1.81238317 | evals=410
+      WOA iter  50 | best=1.81237733 | evals=510
+      WOA iter  60 | best=1.78403175 | evals=610
+      WOA iter  70 | best=1.76882434 | evals=710
+      WOA iter  80 | best=1.76331770 | evals=810
+      WOA iter  90 | best=1.76318944 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=2.07137585 | evals=20
+      FA  iter  10 | best=1.84575582 | evals=110
+      FA  iter  20 | best=1.81615210 | evals=210
+      FA  iter  30 | best=1.81615210 | evals=310
+      FA  iter  40 | best=1.81615210 | evals=410
+      FA  iter  50 | best=1.81615210 | evals=510
+      FA  iter  60 | best=1.81615210 | evals=610
+      FA  iter  70 | best=1.81615210 | evals=710
+      FA  iter  80 | best=1.81615210 | evals=810
+      FA  iter  90 | best=1.81615210 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 3/10 | train=65 test=7
+Selected 5/6: ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'InternalLogicalFiles']
+
+Running GA-ABE...
+      GA  iter   1 | best=1.84527826 | evals=20
+      GA  iter  10 | best=1.81474066 | evals=110
+      GA  iter  20 | best=1.81454718 | evals=210
+      GA  iter  30 | best=1.81342494 | evals=310
+      GA  iter  40 | best=1.80545020 | evals=410
+      GA  iter  50 | best=1.80074441 | evals=510
+      GA  iter  60 | best=1.69697106 | evals=610
+      GA  iter  70 | best=1.69313920 | evals=710
+      GA  iter  80 | best=1.69280183 | evals=810
+      GA  iter  90 | best=1.68929720 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=1.82911444 | evals=20
+      PSO iter  10 | best=1.70245206 | evals=110
+      PSO iter  20 | best=1.70178556 | evals=210
+      PSO iter  30 | best=1.69419420 | evals=310
+      PSO iter  40 | best=1.69112146 | evals=410
+      PSO iter  50 | best=1.68804538 | evals=510
+      PSO iter  60 | best=1.68804538 | evals=610
+      PSO iter  70 | best=1.68797696 | evals=710
+      PSO iter  80 | best=1.68760598 | evals=810
+      PSO iter  90 | best=1.68760598 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=1.84309256 | evals=20
+      DE  iter  10 | best=1.78701007 | evals=110
+      DE  iter  20 | best=1.75552976 | evals=210
+      DE  iter  30 | best=1.73557961 | evals=310
+      DE  iter  40 | best=1.72564971 | evals=410
+      DE  iter  50 | best=1.72546196 | evals=510
+      DE  iter  60 | best=1.72530711 | evals=610
+      DE  iter  70 | best=1.72527719 | evals=710
+      DE  iter  80 | best=1.72526848 | evals=810
+      DE  iter  90 | best=1.72526622 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=1.76671004 | evals=20
+      GWO iter  10 | best=1.77049696 | evals=110
+      GWO iter  20 | best=1.74031425 | evals=210
+      GWO iter  30 | best=1.79620504 | evals=310
+      GWO iter  40 | best=1.74653280 | evals=410
+      GWO iter  50 | best=1.75819588 | evals=510
+      GWO iter  60 | best=1.75917315 | evals=610
+      GWO iter  70 | best=1.74671400 | evals=710
+      GWO iter  80 | best=1.72312176 | evals=810
+      GWO iter  90 | best=1.72333884 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=1.82248461 | evals=20
+      WOA iter  10 | best=1.69732606 | evals=110
+      WOA iter  20 | best=1.69182980 | evals=210
+      WOA iter  30 | best=1.68933463 | evals=310
+      WOA iter  40 | best=1.68920958 | evals=410
+      WOA iter  50 | best=1.68895125 | evals=510
+      WOA iter  60 | best=1.68893480 | evals=610
+      WOA iter  70 | best=1.68891990 | evals=710
+      WOA iter  80 | best=1.68891978 | evals=810
+      WOA iter  90 | best=1.68891907 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=1.78699625 | evals=20
+      FA  iter  10 | best=1.72445512 | evals=110
+      FA  iter  20 | best=1.72445512 | evals=210
+      FA  iter  30 | best=1.72445512 | evals=310
+      FA  iter  40 | best=1.72415626 | evals=410
+      FA  iter  50 | best=1.72185171 | evals=510
+      FA  iter  60 | best=1.72185171 | evals=610
+      FA  iter  70 | best=1.72185171 | evals=710
+      FA  iter  80 | best=1.70948112 | evals=810
+      FA  iter  90 | best=1.70948112 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 4/10 | train=65 test=7
+Selected 6/6: ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'InternalLogicalFiles', 'ExternalOutputs']
+
+Running GA-ABE...
+      GA  iter   1 | best=1.45739305 | evals=20
+      GA  iter  10 | best=1.36446440 | evals=110
+      GA  iter  20 | best=1.30045867 | evals=210
+      GA  iter  30 | best=1.29981244 | evals=310
+      GA  iter  40 | best=1.29753387 | evals=410
+      GA  iter  50 | best=1.29624546 | evals=510
+      GA  iter  60 | best=1.29607046 | evals=610
+      GA  iter  70 | best=1.29607046 | evals=710
+      GA  iter  80 | best=1.29600561 | evals=810
+      GA  iter  90 | best=1.29599524 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=1.36212885 | evals=20
+      PSO iter  10 | best=1.19305456 | evals=110
+      PSO iter  20 | best=1.17770886 | evals=210
+      PSO iter  30 | best=1.17715490 | evals=310
+      PSO iter  40 | best=1.17699933 | evals=410
+      PSO iter  50 | best=1.17024064 | evals=510
+      PSO iter  60 | best=1.17001843 | evals=610
+      PSO iter  70 | best=1.16999471 | evals=710
+      PSO iter  80 | best=1.16984975 | evals=810
+      PSO iter  90 | best=1.16981864 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=1.27187788 | evals=20
+      DE  iter  10 | best=1.27187788 | evals=110
+      DE  iter  20 | best=1.23061800 | evals=210
+      DE  iter  30 | best=1.21027648 | evals=310
+      DE  iter  40 | best=1.20426035 | evals=410
+      DE  iter  50 | best=1.20310175 | evals=510
+      DE  iter  60 | best=1.20305383 | evals=610
+      DE  iter  70 | best=1.20303512 | evals=710
+      DE  iter  80 | best=1.20301425 | evals=810
+      DE  iter  90 | best=1.20300138 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=1.38684499 | evals=20
+      GWO iter  10 | best=1.13382447 | evals=110
+      GWO iter  20 | best=1.05124021 | evals=210
+      GWO iter  30 | best=1.05870652 | evals=310
+      GWO iter  40 | best=1.06394279 | evals=410
+      GWO iter  50 | best=1.06774831 | evals=510
+      GWO iter  60 | best=1.05617774 | evals=610
+      GWO iter  70 | best=1.06358635 | evals=710
+      GWO iter  80 | best=1.05074203 | evals=810
+      GWO iter  90 | best=1.04794145 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=1.43608117 | evals=20
+      WOA iter  10 | best=1.21521568 | evals=110
+      WOA iter  20 | best=1.11253798 | evals=210
+      WOA iter  30 | best=1.09720433 | evals=310
+      WOA iter  40 | best=1.09713888 | evals=410
+      WOA iter  50 | best=1.09697032 | evals=510
+      WOA iter  60 | best=1.09695160 | evals=610
+      WOA iter  70 | best=1.09681773 | evals=710
+      WOA iter  80 | best=1.09681773 | evals=810
+      WOA iter  90 | best=1.09681773 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=1.46561050 | evals=20
+      FA  iter  10 | best=1.22143042 | evals=110
+      FA  iter  20 | best=1.22143042 | evals=210
+      FA  iter  30 | best=1.22143042 | evals=310
+      FA  iter  40 | best=1.22143042 | evals=410
+      FA  iter  50 | best=1.22143042 | evals=510
+      FA  iter  60 | best=1.19210935 | evals=610
+      FA  iter  70 | best=1.19210935 | evals=710
+      FA  iter  80 | best=1.19210935 | evals=810
+      FA  iter  90 | best=1.19210935 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 5/10 | train=65 test=7
+Selected 6/6: ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'InternalLogicalFiles', 'ExternalOutputs']
+
+Running GA-ABE...
+      GA  iter   1 | best=1.67032325 | evals=20
+      GA  iter  10 | best=1.44827402 | evals=110
+      GA  iter  20 | best=1.43760777 | evals=210
+      GA  iter  30 | best=1.43464923 | evals=310
+      GA  iter  40 | best=1.41333961 | evals=410
+      GA  iter  50 | best=1.41329491 | evals=510
+      GA  iter  60 | best=1.41329491 | evals=610
+      GA  iter  70 | best=1.40591538 | evals=710
+      GA  iter  80 | best=1.40591168 | evals=810
+      GA  iter  90 | best=1.40591168 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=1.76058841 | evals=20
+      PSO iter  10 | best=1.66650009 | evals=110
+      PSO iter  20 | best=1.32474267 | evals=210
+      PSO iter  30 | best=1.26593459 | evals=310
+      PSO iter  40 | best=1.24786866 | evals=410
+      PSO iter  50 | best=1.24102819 | evals=510
+      PSO iter  60 | best=1.24082661 | evals=610
+      PSO iter  70 | best=1.24026334 | evals=710
+      PSO iter  80 | best=1.24009621 | evals=810
+      PSO iter  90 | best=1.24006879 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=1.70266330 | evals=20
+      DE  iter  10 | best=1.45080554 | evals=110
+      DE  iter  20 | best=1.43850815 | evals=210
+      DE  iter  30 | best=1.43597937 | evals=310
+      DE  iter  40 | best=1.43572450 | evals=410
+      DE  iter  50 | best=1.43557847 | evals=510
+      DE  iter  60 | best=1.43554246 | evals=610
+      DE  iter  70 | best=1.43545055 | evals=710
+      DE  iter  80 | best=1.43533432 | evals=810
+      DE  iter  90 | best=1.43530345 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=1.37491179 | evals=20
+      GWO iter  10 | best=1.28743386 | evals=110
+      GWO iter  20 | best=1.29904521 | evals=210
+      GWO iter  30 | best=1.26315856 | evals=310
+      GWO iter  40 | best=1.26301110 | evals=410
+      GWO iter  50 | best=1.25950158 | evals=510
+      GWO iter  60 | best=1.27540445 | evals=610
+      GWO iter  70 | best=1.25640905 | evals=710
+      GWO iter  80 | best=1.24278736 | evals=810
+      GWO iter  90 | best=1.23842442 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=1.66021490 | evals=20
+      WOA iter  10 | best=1.62613618 | evals=110
+      WOA iter  20 | best=1.52579141 | evals=210
+      WOA iter  30 | best=1.52425778 | evals=310
+      WOA iter  40 | best=1.52238488 | evals=410
+      WOA iter  50 | best=1.51643693 | evals=510
+      WOA iter  60 | best=1.47582293 | evals=610
+      WOA iter  70 | best=1.47532809 | evals=710
+      WOA iter  80 | best=1.47465408 | evals=810
+      WOA iter  90 | best=1.47135711 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=1.63505554 | evals=20
+      FA  iter  10 | best=1.43878353 | evals=110
+      FA  iter  20 | best=1.30231833 | evals=210
+      FA  iter  30 | best=1.29234815 | evals=310
+      FA  iter  40 | best=1.27492702 | evals=410
+      FA  iter  50 | best=1.15008640 | evals=510
+      FA  iter  60 | best=1.09617054 | evals=610
+      FA  iter  70 | best=1.08181918 | evals=710
+      FA  iter  80 | best=1.08181918 | evals=810
+      FA  iter  90 | best=1.08181918 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 6/10 | train=65 test=7
+Selected 5/6: ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'ExternalOutputs']
+
+Running GA-ABE...
+      GA  iter   1 | best=1.47901440 | evals=20
+      GA  iter  10 | best=1.39475369 | evals=110
+      GA  iter  20 | best=1.39475369 | evals=210
+      GA  iter  30 | best=1.39475369 | evals=310
+      GA  iter  40 | best=1.39260650 | evals=410
+      GA  iter  50 | best=1.39260256 | evals=510
+      GA  iter  60 | best=1.39081526 | evals=610
+      GA  iter  70 | best=1.39074421 | evals=710
+      GA  iter  80 | best=1.39074421 | evals=810
+      GA  iter  90 | best=1.39064395 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=1.63429153 | evals=20
+      PSO iter  10 | best=1.44523013 | evals=110
+      PSO iter  20 | best=1.44522977 | evals=210
+      PSO iter  30 | best=1.44522083 | evals=310
+      PSO iter  40 | best=1.44521976 | evals=410
+      PSO iter  50 | best=1.44521844 | evals=510
+      PSO iter  60 | best=1.44521832 | evals=610
+      PSO iter  70 | best=1.44521832 | evals=710
+      PSO iter  80 | best=1.44521832 | evals=810
+      PSO iter  90 | best=1.44521832 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=1.57362211 | evals=20
+      DE  iter  10 | best=1.44606674 | evals=110
+      DE  iter  20 | best=1.43145669 | evals=210
+      DE  iter  30 | best=1.40947759 | evals=310
+      DE  iter  40 | best=1.39867687 | evals=410
+      DE  iter  50 | best=1.39845037 | evals=510
+      DE  iter  60 | best=1.39841187 | evals=610
+      DE  iter  70 | best=1.39836299 | evals=710
+      DE  iter  80 | best=1.39832604 | evals=810
+      DE  iter  90 | best=1.39831734 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=1.50385785 | evals=20
+      GWO iter  10 | best=1.43357360 | evals=110
+      GWO iter  20 | best=1.45910120 | evals=210
+      GWO iter  30 | best=1.44959414 | evals=310
+      GWO iter  40 | best=1.44288921 | evals=410
+      GWO iter  50 | best=1.43592274 | evals=510
+      GWO iter  60 | best=1.43492496 | evals=610
+      GWO iter  70 | best=1.43901205 | evals=710
+      GWO iter  80 | best=1.43908620 | evals=810
+      GWO iter  90 | best=1.43917906 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=1.57281387 | evals=20
+      WOA iter  10 | best=1.35036099 | evals=110
+      WOA iter  20 | best=1.21938097 | evals=210
+      WOA iter  30 | best=1.18956864 | evals=310
+      WOA iter  40 | best=1.17230141 | evals=410
+      WOA iter  50 | best=1.17164803 | evals=510
+      WOA iter  60 | best=1.17161024 | evals=610
+      WOA iter  70 | best=1.14704978 | evals=710
+      WOA iter  80 | best=1.14704752 | evals=810
+      WOA iter  90 | best=1.14702713 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=1.47023451 | evals=20
+      FA  iter  10 | best=1.44613469 | evals=110
+      FA  iter  20 | best=1.40688658 | evals=210
+      FA  iter  30 | best=1.37905312 | evals=310
+      FA  iter  40 | best=1.37325490 | evals=410
+      FA  iter  50 | best=1.37325490 | evals=510
+      FA  iter  60 | best=1.37325490 | evals=610
+      FA  iter  70 | best=1.37325490 | evals=710
+      FA  iter  80 | best=1.37325490 | evals=810
+      FA  iter  90 | best=1.37325490 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 7/10 | train=65 test=7
+Selected 6/6: ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'InternalLogicalFiles', 'ExternalOutputs']
+
+Running GA-ABE...
+      GA  iter   1 | best=1.96072018 | evals=20
+      GA  iter  10 | best=1.69890952 | evals=110
+      GA  iter  20 | best=1.59926987 | evals=210
+      GA  iter  30 | best=1.58177209 | evals=310
+      GA  iter  40 | best=1.57991803 | evals=410
+      GA  iter  50 | best=1.57913983 | evals=510
+      GA  iter  60 | best=1.57913983 | evals=610
+      GA  iter  70 | best=1.57893598 | evals=710
+      GA  iter  80 | best=1.57879257 | evals=810
+      GA  iter  90 | best=1.57770860 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=1.86941457 | evals=20
+      PSO iter  10 | best=1.76514816 | evals=110
+      PSO iter  20 | best=1.75530744 | evals=210
+      PSO iter  30 | best=1.75513685 | evals=310
+      PSO iter  40 | best=1.75364077 | evals=410
+      PSO iter  50 | best=1.71150208 | evals=510
+      PSO iter  60 | best=1.71144569 | evals=610
+      PSO iter  70 | best=1.71141934 | evals=710
+      PSO iter  80 | best=1.71140182 | evals=810
+      PSO iter  90 | best=1.71138632 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=1.88073683 | evals=20
+      DE  iter  10 | best=1.69679570 | evals=110
+      DE  iter  20 | best=1.56344557 | evals=210
+      DE  iter  30 | best=1.56247234 | evals=310
+      DE  iter  40 | best=1.56247234 | evals=410
+      DE  iter  50 | best=1.56224811 | evals=510
+      DE  iter  60 | best=1.56129277 | evals=610
+      DE  iter  70 | best=1.56123757 | evals=710
+      DE  iter  80 | best=1.56121552 | evals=810
+      DE  iter  90 | best=1.56116962 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=1.82416749 | evals=20
+      GWO iter  10 | best=1.21239293 | evals=110
+      GWO iter  20 | best=1.21446276 | evals=210
+      GWO iter  30 | best=1.21607411 | evals=310
+      GWO iter  40 | best=1.21417189 | evals=410
+      GWO iter  50 | best=1.22370017 | evals=510
+      GWO iter  60 | best=1.22309363 | evals=610
+      GWO iter  70 | best=1.20760095 | evals=710
+      GWO iter  80 | best=1.20752442 | evals=810
+      GWO iter  90 | best=1.20809090 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=1.91363609 | evals=20
+      WOA iter  10 | best=1.47599840 | evals=110
+      WOA iter  20 | best=1.23696256 | evals=210
+      WOA iter  30 | best=1.05875349 | evals=310
+      WOA iter  40 | best=1.05746531 | evals=410
+      WOA iter  50 | best=1.05743635 | evals=510
+      WOA iter  60 | best=1.05738199 | evals=610
+      WOA iter  70 | best=1.05728292 | evals=710
+      WOA iter  80 | best=1.05719388 | evals=810
+      WOA iter  90 | best=1.05717182 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=1.93685114 | evals=20
+      FA  iter  10 | best=1.61615622 | evals=110
+      FA  iter  20 | best=1.60748601 | evals=210
+      FA  iter  30 | best=1.56865561 | evals=310
+      FA  iter  40 | best=1.56865561 | evals=410
+      FA  iter  50 | best=1.56865561 | evals=510
+      FA  iter  60 | best=1.54430199 | evals=610
+      FA  iter  70 | best=1.54430199 | evals=710
+      FA  iter  80 | best=1.54430199 | evals=810
+      FA  iter  90 | best=1.54430199 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 8/10 | train=65 test=7
+Selected 6/6: ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'InternalLogicalFiles', 'ExternalOutputs']
+
+Running GA-ABE...
+      GA  iter   1 | best=2.15283251 | evals=20
+      GA  iter  10 | best=1.81337559 | evals=110
+      GA  iter  20 | best=1.73789001 | evals=210
+      GA  iter  30 | best=1.66315806 | evals=310
+      GA  iter  40 | best=1.63476253 | evals=410
+      GA  iter  50 | best=1.55485165 | evals=510
+      GA  iter  60 | best=1.55485165 | evals=610
+      GA  iter  70 | best=1.55485165 | evals=710
+      GA  iter  80 | best=1.55485165 | evals=810
+      GA  iter  90 | best=1.55484784 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=2.06856823 | evals=20
+      PSO iter  10 | best=1.74949372 | evals=110
+      PSO iter  20 | best=1.74371207 | evals=210
+      PSO iter  30 | best=1.73974264 | evals=310
+      PSO iter  40 | best=1.73974264 | evals=410
+      PSO iter  50 | best=1.73961723 | evals=510
+      PSO iter  60 | best=1.73956561 | evals=610
+      PSO iter  70 | best=1.73315918 | evals=710
+      PSO iter  80 | best=1.73281109 | evals=810
+      PSO iter  90 | best=1.73267972 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=2.09827137 | evals=20
+      DE  iter  10 | best=1.99310911 | evals=110
+      DE  iter  20 | best=1.97908986 | evals=210
+      DE  iter  30 | best=1.93818879 | evals=310
+      DE  iter  40 | best=1.92209971 | evals=410
+      DE  iter  50 | best=1.92133415 | evals=510
+      DE  iter  60 | best=1.92079866 | evals=610
+      DE  iter  70 | best=1.92006671 | evals=710
+      DE  iter  80 | best=1.91977572 | evals=810
+      DE  iter  90 | best=1.91964364 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=2.17031407 | evals=20
+      GWO iter  10 | best=1.68238878 | evals=110
+      GWO iter  20 | best=1.35811579 | evals=210
+      GWO iter  30 | best=1.35396564 | evals=310
+      GWO iter  40 | best=1.35032284 | evals=410
+      GWO iter  50 | best=1.36902320 | evals=510
+      GWO iter  60 | best=1.31877959 | evals=610
+      GWO iter  70 | best=1.31118190 | evals=710
+      GWO iter  80 | best=1.31285262 | evals=810
+      GWO iter  90 | best=1.30329943 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=1.91700304 | evals=20
+      WOA iter  10 | best=1.90474713 | evals=110
+      WOA iter  20 | best=1.43912590 | evals=210
+      WOA iter  30 | best=1.41511476 | evals=310
+      WOA iter  40 | best=1.40663409 | evals=410
+      WOA iter  50 | best=1.37900615 | evals=510
+      WOA iter  60 | best=1.37875712 | evals=610
+      WOA iter  70 | best=1.37846065 | evals=710
+      WOA iter  80 | best=1.37844634 | evals=810
+      WOA iter  90 | best=1.37844634 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=1.97981894 | evals=20
+      FA  iter  10 | best=1.84880614 | evals=110
+      FA  iter  20 | best=1.84880614 | evals=210
+      FA  iter  30 | best=1.81853342 | evals=310
+      FA  iter  40 | best=1.81853342 | evals=410
+      FA  iter  50 | best=1.79442728 | evals=510
+      FA  iter  60 | best=1.79442728 | evals=610
+      FA  iter  70 | best=1.79442728 | evals=710
+      FA  iter  80 | best=1.79442728 | evals=810
+      FA  iter  90 | best=1.79442728 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 9/10 | train=65 test=7
+Selected 6/6: ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'InternalLogicalFiles', 'ExternalOutputs']
+
+Running GA-ABE...
+      GA  iter   1 | best=1.94420242 | evals=20
+      GA  iter  10 | best=1.78193736 | evals=110
+      GA  iter  20 | best=1.77176309 | evals=210
+      GA  iter  30 | best=1.72782838 | evals=310
+      GA  iter  40 | best=1.72782838 | evals=410
+      GA  iter  50 | best=1.72782838 | evals=510
+      GA  iter  60 | best=1.72782838 | evals=610
+      GA  iter  70 | best=1.72782838 | evals=710
+      GA  iter  80 | best=1.72782838 | evals=810
+      GA  iter  90 | best=1.72701633 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=1.94858515 | evals=20
+      PSO iter  10 | best=1.77274609 | evals=110
+      PSO iter  20 | best=1.76631439 | evals=210
+      PSO iter  30 | best=1.76588535 | evals=310
+      PSO iter  40 | best=1.76538527 | evals=410
+      PSO iter  50 | best=1.76515031 | evals=510
+      PSO iter  60 | best=1.76513457 | evals=610
+      PSO iter  70 | best=1.76513338 | evals=710
+      PSO iter  80 | best=1.76510191 | evals=810
+      PSO iter  90 | best=1.75130320 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=1.88128722 | evals=20
+      DE  iter  10 | best=1.41327202 | evals=110
+      DE  iter  20 | best=1.40862870 | evals=210
+      DE  iter  30 | best=1.40332401 | evals=310
+      DE  iter  40 | best=1.40255284 | evals=410
+      DE  iter  50 | best=1.40170753 | evals=510
+      DE  iter  60 | best=1.40163648 | evals=610
+      DE  iter  70 | best=1.40162218 | evals=710
+      DE  iter  80 | best=1.40161240 | evals=810
+      DE  iter  90 | best=1.40161097 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=1.94444680 | evals=20
+      GWO iter  10 | best=1.48576975 | evals=110
+      GWO iter  20 | best=1.24685133 | evals=210
+      GWO iter  30 | best=1.32665777 | evals=310
+      GWO iter  40 | best=1.23582876 | evals=410
+      GWO iter  50 | best=1.22810876 | evals=510
+      GWO iter  60 | best=1.20736384 | evals=610
+      GWO iter  70 | best=1.21650231 | evals=710
+      GWO iter  80 | best=1.20761299 | evals=810
+      GWO iter  90 | best=1.20626104 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=2.01599455 | evals=20
+      WOA iter  10 | best=1.20582581 | evals=110
+      WOA iter  20 | best=1.16957653 | evals=210
+      WOA iter  30 | best=1.14870906 | evals=310
+      WOA iter  40 | best=1.14869380 | evals=410
+      WOA iter  50 | best=1.14840937 | evals=510
+      WOA iter  60 | best=1.14836466 | evals=610
+      WOA iter  70 | best=1.14836121 | evals=710
+      WOA iter  80 | best=1.14836121 | evals=810
+      WOA iter  90 | best=1.14836121 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=1.82263994 | evals=20
+      FA  iter  10 | best=1.70533442 | evals=110
+      FA  iter  20 | best=1.67384839 | evals=210
+      FA  iter  30 | best=1.67384839 | evals=310
+      FA  iter  40 | best=1.67384839 | evals=410
+      FA  iter  50 | best=1.67384839 | evals=510
+      FA  iter  60 | best=1.67384839 | evals=610
+      FA  iter  70 | best=1.67384839 | evals=710
+      FA  iter  80 | best=1.67384839 | evals=810
+      FA  iter  90 | best=1.67384839 | evals=910
+
+----------------------------------------------------------------------------------------------------
+OUTER FOLD 10/10 | train=65 test=7
+Selected 6/6: ['TotalUFP', 'ExternalInterface', 'ExternalQueries', 'ExternalInputs', 'InternalLogicalFiles', 'ExternalOutputs']
+
+Running GA-ABE...
+      GA  iter   1 | best=1.93363905 | evals=20
+      GA  iter  10 | best=1.78010142 | evals=110
+      GA  iter  20 | best=1.74366975 | evals=210
+      GA  iter  30 | best=1.73119080 | evals=310
+      GA  iter  40 | best=1.73119080 | evals=410
+      GA  iter  50 | best=1.72223759 | evals=510
+      GA  iter  60 | best=1.72209799 | evals=610
+      GA  iter  70 | best=1.70461774 | evals=710
+      GA  iter  80 | best=1.68703473 | evals=810
+      GA  iter  90 | best=1.68396044 | evals=910
+
+Running PSO-ABE...
+      PSO iter   1 | best=1.97733343 | evals=20
+      PSO iter  10 | best=1.39480126 | evals=110
+      PSO iter  20 | best=1.12253320 | evals=210
+      PSO iter  30 | best=1.11965990 | evals=310
+      PSO iter  40 | best=1.11937559 | evals=410
+      PSO iter  50 | best=1.11937559 | evals=510
+      PSO iter  60 | best=1.11936164 | evals=610
+      PSO iter  70 | best=1.11935830 | evals=710
+      PSO iter  80 | best=1.11935532 | evals=810
+      PSO iter  90 | best=1.11935484 | evals=910
+
+Running DE-ABE...
+      DE  iter   1 | best=1.99624121 | evals=20
+      DE  iter  10 | best=1.68772769 | evals=110
+      DE  iter  20 | best=1.63643372 | evals=210
+      DE  iter  30 | best=1.62950528 | evals=310
+      DE  iter  40 | best=1.52326548 | evals=410
+      DE  iter  50 | best=1.52240694 | evals=510
+      DE  iter  60 | best=1.52229428 | evals=610
+      DE  iter  70 | best=1.52224541 | evals=710
+      DE  iter  80 | best=1.52221155 | evals=810
+      DE  iter  90 | best=1.52220035 | evals=910
+
+Running GWO-ABE...
+      GWO iter   1 | best=2.10051179 | evals=20
+      GWO iter  10 | best=1.52877164 | evals=110
+      GWO iter  20 | best=1.49964786 | evals=210
+      GWO iter  30 | best=1.43844986 | evals=310
+      GWO iter  40 | best=1.46878147 | evals=410
+      GWO iter  50 | best=1.44409895 | evals=510
+      GWO iter  60 | best=1.42999458 | evals=610
+      GWO iter  70 | best=1.43026447 | evals=710
+      GWO iter  80 | best=1.42220747 | evals=810
+      GWO iter  90 | best=1.42203975 | evals=910
+
+Running WOA-ABE...
+      WOA iter   1 | best=1.74739969 | evals=20
+      WOA iter  10 | best=1.68235421 | evals=110
+      WOA iter  20 | best=1.52763414 | evals=210
+      WOA iter  30 | best=1.27371168 | evals=310
+      WOA iter  40 | best=1.24996257 | evals=410
+      WOA iter  50 | best=1.23564649 | evals=510
+      WOA iter  60 | best=1.23322356 | evals=610
+      WOA iter  70 | best=1.23318934 | evals=710
+      WOA iter  80 | best=1.23083317 | evals=810
+      WOA iter  90 | best=1.22986889 | evals=910
+
+Running FAABE...
+      FA  iter   1 | best=1.87915885 | evals=20
+      FA  iter  10 | best=1.68670392 | evals=110
+      FA  iter  20 | best=1.67018342 | evals=210
+      FA  iter  30 | best=1.64127898 | evals=310
+      FA  iter  40 | best=1.63738167 | evals=410
+      FA  iter  50 | best=1.63145304 | evals=510
+      FA  iter  60 | best=1.63145304 | evals=610
+      FA  iter  70 | best=1.63145304 | evals=710
+      FA  iter  80 | best=1.63145304 | evals=810
+      FA  iter  90 | best=1.63145304 | evals=910
+
+FINAL RANKING
+ MMRE_Rank  Method     MMRE         MAE        RMSE
+         1  GA-ABE 2.011093 5984.551125 8597.577799
+         2 WOA-ABE 2.020175 6282.710790 8629.543138
+         3   FAABE 2.232172 6177.554799 8850.151029
+         4  DE-ABE 2.351336 6100.872048 8683.921824
+         5     ABE 2.425959 5662.634145 8307.749413
+         6 PSO-ABE 2.430277 5488.838311 8289.374890
+         7 GWO-ABE 2.479066 6536.893119 9124.613112
+
+FAABE VS BASELINES
+Dataset Baseline Proposed  Valid_Pairs  Baseline_MMRE  FAABE_MMRE  FAABE_MMRE_Improvement_%  Wilcoxon_Statistic  Wilcoxon_p  Cliffs_Delta Cliffs_Effect  Wilcoxon_p_Holm  Significant_Holm_0.05
+Subbiah      ABE    FAABE           72       2.425959    2.232172                  7.988039              1249.0    0.715291     -0.081404    Negligible         1.000000                  False
+Subbiah   GA-ABE    FAABE           72       2.011093    2.232172                -10.992970              1311.0    0.986568     -0.004630    Negligible         1.000000                  False
+Subbiah  PSO-ABE    FAABE           72       2.430277    2.232172                  8.151542              1004.0    0.081925     -0.125386    Negligible         0.491549                  False
+Subbiah   DE-ABE    FAABE           72       2.351336    2.232172                  5.067942              1305.0    0.959720     -0.008488    Negligible         1.000000                  False
+Subbiah  GWO-ABE    FAABE           72       2.479066    2.232172                  9.959165              1115.0    0.264111      0.056327    Negligible         1.000000                  False
+Subbiah  WOA-ABE    FAABE           72       2.020175    2.232172                -10.493991              1263.0    0.774728      0.080247    Negligible         1.000000                  False

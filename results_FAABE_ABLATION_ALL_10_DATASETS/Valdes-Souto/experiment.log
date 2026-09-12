@@ -1,0 +1,430 @@
+==============================================================================================================
+ABLATION DATASET: Valdes-Souto
+==============================================================================================================
+Timestamp: 2026-08-26T12:48:57.861561
+Device: cuda
+GPU: NVIDIA A100 80GB PCIe
+CUDA version: 12.1
+Loaded: Valdes-Souto.csv
+Projects: 57
+Predictors (2): ['COSMIC_FP', 'HH_CFP']
+Target: Effort
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 1/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 1/2: ['COSMIC_FP']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 0.51700842
+      Iteration  10/100 | Best training MMRE = 0.51699942
+      Iteration  20/100 | Best training MMRE = 0.51696163
+      Iteration  30/100 | Best training MMRE = 0.51696163
+      Iteration  40/100 | Best training MMRE = 0.51696163
+      Iteration  50/100 | Best training MMRE = 0.51696163
+      Iteration  60/100 | Best training MMRE = 0.51696163
+      Iteration  70/100 | Best training MMRE = 0.51696163
+      Iteration  80/100 | Best training MMRE = 0.51696163
+      Iteration  90/100 | Best training MMRE = 0.51696163
+      Iteration 100/100 | Best training MMRE = 0.51696163
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 2.60685420
+      Iteration  10/100 | Best training MMRE = 2.60685420
+      Iteration  20/100 | Best training MMRE = 2.60685420
+      Iteration  30/100 | Best training MMRE = 2.60685420
+      Iteration  40/100 | Best training MMRE = 2.60685420
+      Iteration  50/100 | Best training MMRE = 2.60685420
+      Iteration  60/100 | Best training MMRE = 2.60685420
+      Iteration  70/100 | Best training MMRE = 2.60685420
+      Iteration  80/100 | Best training MMRE = 2.60685420
+      Iteration  90/100 | Best training MMRE = 2.60685420
+      Iteration 100/100 | Best training MMRE = 2.60685420
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 2.83317614
+      Iteration  10/100 | Best training MMRE = 2.83317614
+      Iteration  20/100 | Best training MMRE = 2.83317614
+      Iteration  30/100 | Best training MMRE = 2.83317614
+      Iteration  40/100 | Best training MMRE = 2.83317614
+      Iteration  50/100 | Best training MMRE = 2.83317614
+      Iteration  60/100 | Best training MMRE = 2.83317614
+      Iteration  70/100 | Best training MMRE = 2.83317614
+      Iteration  80/100 | Best training MMRE = 2.83317614
+      Iteration  90/100 | Best training MMRE = 2.83317614
+      Iteration 100/100 | Best training MMRE = 2.83317614
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 2/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 1/2: ['COSMIC_FP']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 0.48248062
+      Iteration  10/100 | Best training MMRE = 0.48247164
+      Iteration  20/100 | Best training MMRE = 0.48244882
+      Iteration  30/100 | Best training MMRE = 0.48244882
+      Iteration  40/100 | Best training MMRE = 0.48244882
+      Iteration  50/100 | Best training MMRE = 0.48244882
+      Iteration  60/100 | Best training MMRE = 0.48244882
+      Iteration  70/100 | Best training MMRE = 0.48244882
+      Iteration  80/100 | Best training MMRE = 0.48244846
+      Iteration  90/100 | Best training MMRE = 0.48244846
+      Iteration 100/100 | Best training MMRE = 0.48244846
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 2.21214485
+      Iteration  10/100 | Best training MMRE = 2.21214485
+      Iteration  20/100 | Best training MMRE = 2.21214485
+      Iteration  30/100 | Best training MMRE = 2.21214485
+      Iteration  40/100 | Best training MMRE = 2.21214485
+      Iteration  50/100 | Best training MMRE = 2.21214485
+      Iteration  60/100 | Best training MMRE = 2.21214485
+      Iteration  70/100 | Best training MMRE = 2.21214485
+      Iteration  80/100 | Best training MMRE = 2.21214485
+      Iteration  90/100 | Best training MMRE = 2.21214485
+      Iteration 100/100 | Best training MMRE = 2.21214485
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 2.51311588
+      Iteration  10/100 | Best training MMRE = 2.51311588
+      Iteration  20/100 | Best training MMRE = 2.51311588
+      Iteration  30/100 | Best training MMRE = 2.51311588
+      Iteration  40/100 | Best training MMRE = 2.51311588
+      Iteration  50/100 | Best training MMRE = 2.51311588
+      Iteration  60/100 | Best training MMRE = 2.51311588
+      Iteration  70/100 | Best training MMRE = 2.51311588
+      Iteration  80/100 | Best training MMRE = 2.51311588
+      Iteration  90/100 | Best training MMRE = 2.51311588
+      Iteration 100/100 | Best training MMRE = 2.51311588
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 3/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 1/2: ['COSMIC_FP']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 0.49970588
+      Iteration  10/100 | Best training MMRE = 0.49893588
+      Iteration  20/100 | Best training MMRE = 0.49893346
+      Iteration  30/100 | Best training MMRE = 0.49893346
+      Iteration  40/100 | Best training MMRE = 0.49893346
+      Iteration  50/100 | Best training MMRE = 0.49893346
+      Iteration  60/100 | Best training MMRE = 0.49893346
+      Iteration  70/100 | Best training MMRE = 0.49893346
+      Iteration  80/100 | Best training MMRE = 0.49893346
+      Iteration  90/100 | Best training MMRE = 0.49893346
+      Iteration 100/100 | Best training MMRE = 0.49893346
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 2.82335997
+      Iteration  10/100 | Best training MMRE = 2.82335997
+      Iteration  20/100 | Best training MMRE = 2.82335997
+      Iteration  30/100 | Best training MMRE = 2.82335997
+      Iteration  40/100 | Best training MMRE = 2.82335997
+      Iteration  50/100 | Best training MMRE = 2.82335997
+      Iteration  60/100 | Best training MMRE = 2.82335997
+      Iteration  70/100 | Best training MMRE = 2.82335997
+      Iteration  80/100 | Best training MMRE = 2.82335997
+      Iteration  90/100 | Best training MMRE = 2.82335997
+      Iteration 100/100 | Best training MMRE = 2.82335997
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 3.23121285
+      Iteration  10/100 | Best training MMRE = 3.23121285
+      Iteration  20/100 | Best training MMRE = 3.23121285
+      Iteration  30/100 | Best training MMRE = 3.23121285
+      Iteration  40/100 | Best training MMRE = 3.23121285
+      Iteration  50/100 | Best training MMRE = 3.23121285
+      Iteration  60/100 | Best training MMRE = 3.23121285
+      Iteration  70/100 | Best training MMRE = 3.23121285
+      Iteration  80/100 | Best training MMRE = 3.23121285
+      Iteration  90/100 | Best training MMRE = 3.23121285
+      Iteration 100/100 | Best training MMRE = 3.23121285
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 4/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 1/2: ['COSMIC_FP']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 0.53827333
+      Iteration  10/100 | Best training MMRE = 0.53827143
+      Iteration  20/100 | Best training MMRE = 0.53827089
+      Iteration  30/100 | Best training MMRE = 0.53827089
+      Iteration  40/100 | Best training MMRE = 0.53827029
+      Iteration  50/100 | Best training MMRE = 0.53827029
+      Iteration  60/100 | Best training MMRE = 0.53826654
+      Iteration  70/100 | Best training MMRE = 0.53826654
+      Iteration  80/100 | Best training MMRE = 0.53826654
+      Iteration  90/100 | Best training MMRE = 0.53826654
+      Iteration 100/100 | Best training MMRE = 0.53826654
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 2.87630439
+      Iteration  10/100 | Best training MMRE = 2.87630439
+      Iteration  20/100 | Best training MMRE = 2.87630439
+      Iteration  30/100 | Best training MMRE = 2.87630439
+      Iteration  40/100 | Best training MMRE = 2.87630439
+      Iteration  50/100 | Best training MMRE = 2.87630439
+      Iteration  60/100 | Best training MMRE = 2.87630439
+      Iteration  70/100 | Best training MMRE = 2.87630439
+      Iteration  80/100 | Best training MMRE = 2.87630439
+      Iteration  90/100 | Best training MMRE = 2.87630439
+      Iteration 100/100 | Best training MMRE = 2.87630439
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 3.23650217
+      Iteration  10/100 | Best training MMRE = 3.23650217
+      Iteration  20/100 | Best training MMRE = 3.23650217
+      Iteration  30/100 | Best training MMRE = 3.23650217
+      Iteration  40/100 | Best training MMRE = 3.23650217
+      Iteration  50/100 | Best training MMRE = 3.23650217
+      Iteration  60/100 | Best training MMRE = 3.23650217
+      Iteration  70/100 | Best training MMRE = 3.23650217
+      Iteration  80/100 | Best training MMRE = 3.23650217
+      Iteration  90/100 | Best training MMRE = 3.23650217
+      Iteration 100/100 | Best training MMRE = 3.23650217
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 5/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 1/2: ['COSMIC_FP']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 0.75607151
+      Iteration  10/100 | Best training MMRE = 0.75541151
+      Iteration  20/100 | Best training MMRE = 0.75538450
+      Iteration  30/100 | Best training MMRE = 0.75533378
+      Iteration  40/100 | Best training MMRE = 0.75533378
+      Iteration  50/100 | Best training MMRE = 0.75533378
+      Iteration  60/100 | Best training MMRE = 0.75533378
+      Iteration  70/100 | Best training MMRE = 0.75533378
+      Iteration  80/100 | Best training MMRE = 0.75533378
+      Iteration  90/100 | Best training MMRE = 0.75533378
+      Iteration 100/100 | Best training MMRE = 0.75533378
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 3.27537513
+      Iteration  10/100 | Best training MMRE = 3.27537513
+      Iteration  20/100 | Best training MMRE = 3.27537513
+      Iteration  30/100 | Best training MMRE = 3.27537513
+      Iteration  40/100 | Best training MMRE = 3.27537513
+      Iteration  50/100 | Best training MMRE = 3.27537513
+      Iteration  60/100 | Best training MMRE = 3.27537513
+      Iteration  70/100 | Best training MMRE = 3.27537513
+      Iteration  80/100 | Best training MMRE = 3.27537513
+      Iteration  90/100 | Best training MMRE = 3.27537513
+      Iteration 100/100 | Best training MMRE = 3.27537513
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 3.29055977
+      Iteration  10/100 | Best training MMRE = 3.29055977
+      Iteration  20/100 | Best training MMRE = 3.29055977
+      Iteration  30/100 | Best training MMRE = 3.29055977
+      Iteration  40/100 | Best training MMRE = 3.29055977
+      Iteration  50/100 | Best training MMRE = 3.29055977
+      Iteration  60/100 | Best training MMRE = 3.29055977
+      Iteration  70/100 | Best training MMRE = 3.29055977
+      Iteration  80/100 | Best training MMRE = 3.29055977
+      Iteration  90/100 | Best training MMRE = 3.29055977
+      Iteration 100/100 | Best training MMRE = 3.29055977
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 6/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 1/2: ['COSMIC_FP']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 0.52806425
+      Iteration  10/100 | Best training MMRE = 0.52625984
+      Iteration  20/100 | Best training MMRE = 0.52625984
+      Iteration  30/100 | Best training MMRE = 0.52625680
+      Iteration  40/100 | Best training MMRE = 0.52625680
+      Iteration  50/100 | Best training MMRE = 0.52625680
+      Iteration  60/100 | Best training MMRE = 0.52625394
+      Iteration  70/100 | Best training MMRE = 0.52625394
+      Iteration  80/100 | Best training MMRE = 0.52625394
+      Iteration  90/100 | Best training MMRE = 0.52625394
+      Iteration 100/100 | Best training MMRE = 0.52625394
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 2.92244601
+      Iteration  10/100 | Best training MMRE = 2.92244601
+      Iteration  20/100 | Best training MMRE = 2.92244601
+      Iteration  30/100 | Best training MMRE = 2.92244601
+      Iteration  40/100 | Best training MMRE = 2.92244601
+      Iteration  50/100 | Best training MMRE = 2.92244601
+      Iteration  60/100 | Best training MMRE = 2.92244601
+      Iteration  70/100 | Best training MMRE = 2.92244601
+      Iteration  80/100 | Best training MMRE = 2.92244601
+      Iteration  90/100 | Best training MMRE = 2.92244601
+      Iteration 100/100 | Best training MMRE = 2.92244601
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 3.27767229
+      Iteration  10/100 | Best training MMRE = 3.27767229
+      Iteration  20/100 | Best training MMRE = 3.27767229
+      Iteration  30/100 | Best training MMRE = 3.27767229
+      Iteration  40/100 | Best training MMRE = 3.27767229
+      Iteration  50/100 | Best training MMRE = 3.27767229
+      Iteration  60/100 | Best training MMRE = 3.27767229
+      Iteration  70/100 | Best training MMRE = 3.27767229
+      Iteration  80/100 | Best training MMRE = 3.27767229
+      Iteration  90/100 | Best training MMRE = 3.27767229
+      Iteration 100/100 | Best training MMRE = 3.27767229
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 7/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 2/2: ['COSMIC_FP', 'HH_CFP']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 0.48100847
+      Iteration  10/100 | Best training MMRE = 0.48097196
+      Iteration  20/100 | Best training MMRE = 0.48090050
+      Iteration  30/100 | Best training MMRE = 0.48087412
+      Iteration  40/100 | Best training MMRE = 0.48087412
+      Iteration  50/100 | Best training MMRE = 0.48087412
+      Iteration  60/100 | Best training MMRE = 0.48087412
+      Iteration  70/100 | Best training MMRE = 0.48087081
+      Iteration  80/100 | Best training MMRE = 0.48087081
+      Iteration  90/100 | Best training MMRE = 0.48087081
+      Iteration 100/100 | Best training MMRE = 0.48087081
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 0.48817164
+      Iteration  10/100 | Best training MMRE = 0.48817164
+      Iteration  20/100 | Best training MMRE = 0.48817164
+      Iteration  30/100 | Best training MMRE = 0.48817164
+      Iteration  40/100 | Best training MMRE = 0.48817164
+      Iteration  50/100 | Best training MMRE = 0.48817164
+      Iteration  60/100 | Best training MMRE = 0.48817164
+      Iteration  70/100 | Best training MMRE = 0.48817164
+      Iteration  80/100 | Best training MMRE = 0.48817164
+      Iteration  90/100 | Best training MMRE = 0.48817164
+      Iteration 100/100 | Best training MMRE = 0.48817164
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 0.48088032
+      Iteration  10/100 | Best training MMRE = 0.48088032
+      Iteration  20/100 | Best training MMRE = 0.48087236
+      Iteration  30/100 | Best training MMRE = 0.48087236
+      Iteration  40/100 | Best training MMRE = 0.48087236
+      Iteration  50/100 | Best training MMRE = 0.48087236
+      Iteration  60/100 | Best training MMRE = 0.48087236
+      Iteration  70/100 | Best training MMRE = 0.48087236
+      Iteration  80/100 | Best training MMRE = 0.48087236
+      Iteration  90/100 | Best training MMRE = 0.48087236
+      Iteration 100/100 | Best training MMRE = 0.48087236
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 8/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 1/2: ['COSMIC_FP']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 0.55147570
+      Iteration  10/100 | Best training MMRE = 0.54742998
+      Iteration  20/100 | Best training MMRE = 0.54742998
+      Iteration  30/100 | Best training MMRE = 0.54742998
+      Iteration  40/100 | Best training MMRE = 0.54742998
+      Iteration  50/100 | Best training MMRE = 0.54742998
+      Iteration  60/100 | Best training MMRE = 0.54742998
+      Iteration  70/100 | Best training MMRE = 0.54742998
+      Iteration  80/100 | Best training MMRE = 0.54742998
+      Iteration  90/100 | Best training MMRE = 0.54742998
+      Iteration 100/100 | Best training MMRE = 0.54742998
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 3.05919957
+      Iteration  10/100 | Best training MMRE = 3.05919957
+      Iteration  20/100 | Best training MMRE = 3.05919957
+      Iteration  30/100 | Best training MMRE = 3.05919957
+      Iteration  40/100 | Best training MMRE = 3.05919957
+      Iteration  50/100 | Best training MMRE = 3.05919957
+      Iteration  60/100 | Best training MMRE = 3.05919957
+      Iteration  70/100 | Best training MMRE = 3.05919957
+      Iteration  80/100 | Best training MMRE = 3.05919957
+      Iteration  90/100 | Best training MMRE = 3.05919957
+      Iteration 100/100 | Best training MMRE = 3.05919957
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 3.31321740
+      Iteration  10/100 | Best training MMRE = 3.31321740
+      Iteration  20/100 | Best training MMRE = 3.31321740
+      Iteration  30/100 | Best training MMRE = 3.31321740
+      Iteration  40/100 | Best training MMRE = 3.31321740
+      Iteration  50/100 | Best training MMRE = 3.31321740
+      Iteration  60/100 | Best training MMRE = 3.31321740
+      Iteration  70/100 | Best training MMRE = 3.31321740
+      Iteration  80/100 | Best training MMRE = 3.31321740
+      Iteration  90/100 | Best training MMRE = 3.31321740
+      Iteration 100/100 | Best training MMRE = 3.31321740
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 9/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 1/2: ['COSMIC_FP']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 0.45954892
+      Iteration  10/100 | Best training MMRE = 0.45715693
+      Iteration  20/100 | Best training MMRE = 0.45715693
+      Iteration  30/100 | Best training MMRE = 0.45715693
+      Iteration  40/100 | Best training MMRE = 0.45715669
+      Iteration  50/100 | Best training MMRE = 0.45715564
+      Iteration  60/100 | Best training MMRE = 0.45715564
+      Iteration  70/100 | Best training MMRE = 0.45715564
+      Iteration  80/100 | Best training MMRE = 0.45715564
+      Iteration  90/100 | Best training MMRE = 0.45715564
+      Iteration 100/100 | Best training MMRE = 0.45715564
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 1.82165754
+      Iteration  10/100 | Best training MMRE = 1.82165754
+      Iteration  20/100 | Best training MMRE = 1.82165754
+      Iteration  30/100 | Best training MMRE = 1.82165754
+      Iteration  40/100 | Best training MMRE = 1.82165754
+      Iteration  50/100 | Best training MMRE = 1.82165754
+      Iteration  60/100 | Best training MMRE = 1.82165754
+      Iteration  70/100 | Best training MMRE = 1.82165754
+      Iteration  80/100 | Best training MMRE = 1.82165754
+      Iteration  90/100 | Best training MMRE = 1.82165754
+      Iteration 100/100 | Best training MMRE = 1.82165754
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 2.13827085
+      Iteration  10/100 | Best training MMRE = 2.13827085
+      Iteration  20/100 | Best training MMRE = 2.13827085
+      Iteration  30/100 | Best training MMRE = 2.13827085
+      Iteration  40/100 | Best training MMRE = 2.13827085
+      Iteration  50/100 | Best training MMRE = 2.13827085
+      Iteration  60/100 | Best training MMRE = 2.13827085
+      Iteration  70/100 | Best training MMRE = 2.13827085
+      Iteration  80/100 | Best training MMRE = 2.13827085
+      Iteration  90/100 | Best training MMRE = 2.13827085
+      Iteration 100/100 | Best training MMRE = 2.13827085
+
+--------------------------------------------------------------------------------------------------------------
+OUTER FOLD 10/10
+--------------------------------------------------------------------------------------------------------------
+Pearson selected 1/2: ['COSMIC_FP']
+Running FAABE_NO_PEARSON...
+      Iteration   1/100 | Best training MMRE = 0.65565741
+      Iteration  10/100 | Best training MMRE = 0.65560496
+      Iteration  20/100 | Best training MMRE = 0.65560496
+      Iteration  30/100 | Best training MMRE = 0.65560496
+      Iteration  40/100 | Best training MMRE = 0.65560496
+      Iteration  50/100 | Best training MMRE = 0.65560496
+      Iteration  60/100 | Best training MMRE = 0.65560299
+      Iteration  70/100 | Best training MMRE = 0.65560299
+      Iteration  80/100 | Best training MMRE = 0.65560299
+      Iteration  90/100 | Best training MMRE = 0.65560299
+      Iteration 100/100 | Best training MMRE = 0.65560299
+Running FAABE_NO_IWM...
+      Iteration   1/100 | Best training MMRE = 2.87348843
+      Iteration  10/100 | Best training MMRE = 2.87348843
+      Iteration  20/100 | Best training MMRE = 2.87348843
+      Iteration  30/100 | Best training MMRE = 2.87348843
+      Iteration  40/100 | Best training MMRE = 2.87348843
+      Iteration  50/100 | Best training MMRE = 2.87348843
+      Iteration  60/100 | Best training MMRE = 2.87348843
+      Iteration  70/100 | Best training MMRE = 2.87348843
+      Iteration  80/100 | Best training MMRE = 2.87348843
+      Iteration  90/100 | Best training MMRE = 2.87348843
+      Iteration 100/100 | Best training MMRE = 2.87348843
+Running FAABE_FULL...
+      Iteration   1/100 | Best training MMRE = 3.06826329
+      Iteration  10/100 | Best training MMRE = 3.06826329
+      Iteration  20/100 | Best training MMRE = 3.06826329
+      Iteration  30/100 | Best training MMRE = 3.06826329
+      Iteration  40/100 | Best training MMRE = 3.06826329
+      Iteration  50/100 | Best training MMRE = 3.06826329
+      Iteration  60/100 | Best training MMRE = 3.06826329
+      Iteration  70/100 | Best training MMRE = 3.06826329
+      Iteration  80/100 | Best training MMRE = 3.06826329
+      Iteration  90/100 | Best training MMRE = 3.06826329
+      Iteration 100/100 | Best training MMRE = 3.06826329
+
+==============================================================================================================
+FINAL ABLATION RANKING
+==============================================================================================================
+ 1. FAABE_NO_PEARSON     | MMRE=0.68580011 | MAE=1880.632362 | RMSE=5328.940438
+ 2. ABE_BASE             | MMRE=0.69492837 | MAE=1815.671774 | RMSE=5231.821547
+ 3. FAABE_NO_IWM         | MMRE=2.82505717 | MAE=2458.700587 | RMSE=5743.019646
+ 4. FAABE_NO_FIREFLY     | MMRE=2.99935302 | MAE=2426.602099 | RMSE=5672.076991
+ 5. FAABE_FULL           | MMRE=3.00010263 | MAE=2439.410868 | RMSE=5740.917173

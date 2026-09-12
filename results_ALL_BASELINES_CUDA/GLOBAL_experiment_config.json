@@ -1,0 +1,23 @@
+{
+  "methods": [
+    "ABE",
+    "GA-ABE",
+    "PSO-ABE",
+    "DE-ABE",
+    "GWO-ABE",
+    "WOA-ABE",
+    "FAABE"
+  ],
+  "outer_folds": 10,
+  "pearson_threshold": 0.25,
+  "k_analogies": 3,
+  "population_size": 10,
+  "max_iterations": 100,
+  "max_fitness_evaluations_per_metaheuristic_per_fold": 1000,
+  "fitness": "training-only leave-one-out MMRE",
+  "statistics": "paired project-level out-of-fold MRE",
+  "multiple_testing": "Holm correction across FAABE-vs-baseline comparisons within each dataset",
+  "test_labels_used_during_training": false,
+  "device": "cuda",
+  "gpu": "NVIDIA A100 80GB PCIe"
+}
